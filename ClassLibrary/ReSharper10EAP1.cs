@@ -33,27 +33,13 @@ namespace ClassLibrary
         }
     }
 
+    // UPDATE: CA "Create another part of the type"
     public class Feature
     {
         public string Name { get; set; }
 
         // UPDATE: Invert boolean member (via Refactor This)
         public bool Unavailable { get; set; }
-    }
-
-    // UPDATE: CA "Specify enum member values"
-    enum Countries
-    {
-        USA,
-        UK,
-        Germany,
-        Canada,
-        France,
-        Spain,
-        Japan,
-        Russia,
-        China,
-        Brazil
     }
 }
 
