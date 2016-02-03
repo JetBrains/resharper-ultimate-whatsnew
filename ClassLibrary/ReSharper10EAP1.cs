@@ -28,6 +28,15 @@ namespace ClassLibrary
                 Unavailable = false,
                 Name = "Invert Boolean Member"
             };
+
+            // UPDATE: CA "Comment/Uncomment code" (commenting is only available on selection)
+/*
+            var anotherFeature = new Feature
+            {
+                Unavailable = true,
+                Name = "Comment selection"
+            };
+*/
         }
 
         private void TakeManyParametersAndCheckThemAll(string myString, // UPDATE: CA "Check parameter for null or empty/whitespace string"
