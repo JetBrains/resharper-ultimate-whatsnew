@@ -25,6 +25,15 @@ namespace ClassLibrary
             }
         }
 
+        private void ShowcaseStringActions(string input)
+        {
+            // UPDATE: Inspection "Redundant string verbatimity sign" + QF
+            string s = $@"{input} yo";
+
+            // UPDATE: Inspection "Redundant verbatim identifier" + QF
+            string @from = input;
+        }
+
         private static void ShowcaseInvertBoolean()
         {
             var feature = new Feature
