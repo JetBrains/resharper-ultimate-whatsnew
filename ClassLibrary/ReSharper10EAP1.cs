@@ -34,6 +34,22 @@ namespace ClassLibrary
             string @from = input;
         }
 
+        private void ShowcaseCSharp6(string input)
+        {
+            // UPDATE: CA "Convert string interpolation into string.Format"
+            string firstString = $"{input} yay";
+
+            // UPDATE: CA "Convert concatenation to interpolation"
+            string secondString = "Here's my input: " + input;
+
+            // UPDATE: Refactoring "Introduce variable for substring" supports string interpolation
+            string thirdString = string.Concat($"Here\'s my input: {input}");
+
+            // UPDATE: Inspection "Nested string interpolation can be inlined" + QF
+            string fourthString = $"{ $"{input} yay"}";
+
+        }
+
         private static void ShowcaseInvertBoolean()
         {
             var feature = new Feature
