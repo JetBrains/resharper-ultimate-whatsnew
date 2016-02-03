@@ -9,6 +9,10 @@ namespace ClassLibrary
 {
     public class ReSharper10EAP1
     {
+        // UPDATE: CAs to split or join attribute sections
+        [ItemNotNull, AssertionMethod]
+        [ItemCanBeNull]
+        [AspDataField]
         public IEnumerable<string> ProcessEnumerable(IEnumerable<string> items)
         {
             // UPDATE: LINQ transformation suggestions are now downgraded to HINT severity
