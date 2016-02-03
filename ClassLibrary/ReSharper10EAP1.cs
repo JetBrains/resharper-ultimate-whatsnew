@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+
 // ReSharper disable UnusedMember.Global
 // ReSharper disable UnusedVariable
 // ReSharper disable UnusedMember.Local
@@ -31,6 +28,22 @@ namespace ClassLibrary
                 Name = "Invert Boolean Member"
             };
         }
+
+        private void TakeManyParametersAndCheckThemAll(string myString, // UPDATE: CA "Check parameter for null or empty/whitespace string"
+                                                       int myNumber, // UPDATE: CA "Check if parameter is out of range"
+                                                       Country myCountry, // UPDATE: CA "Check if enum parameter is defined by enum type"
+                                                       List<string> moarStrings) // UPDATE: CA "Check if parameter is an empty collection"
+        {
+        }
+
+    }
+
+
+    public enum Country
+    {
+        USA = 0,
+        UK = 1,
+        Germany = 2
     }
 
     // UPDATE: CA "Create another part of the type"
