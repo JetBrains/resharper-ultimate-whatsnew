@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{12A1F12D-9879-4301-BD7D-766399745BA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReSharper 10.1", "ReSharper 10.1", "{A67D8224-EC2A-4A79-AE19-3778AAF4FC6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EAP1", "EAP1", "{33892701-B83C-4BE3-A7D3-24BE0023001A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12A1F12D-9879-4301-BD7D-766399745BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A1F12D-9879-4301-BD7D-766399745BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A1F12D-9879-4301-BD7D-766399745BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A1F12D-9879-4301-BD7D-766399745BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12A1F12D-9879-4301-BD7D-766399745BA7} = {33892701-B83C-4BE3-A7D3-24BE0023001A}
+		{33892701-B83C-4BE3-A7D3-24BE0023001A} = {A67D8224-EC2A-4A79-AE19-3778AAF4FC6E}
+	EndGlobalSection
+EndGlobal
