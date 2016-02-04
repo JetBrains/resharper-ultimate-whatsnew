@@ -73,6 +73,10 @@ namespace ReSharper101EAP1
                                                        Country myCountry, // UPDATE: CA "Check if enum parameter is defined by enum type"
                                                        List<string> moarStrings) // UPDATE: CA "Check if parameter is an empty collection"
         {
+            if (false)
+            {
+                TakeManyParametersAndCheckThemAll(" ", -10, (Country)3235, new List<string>());
+            }
         }
 
         // UPDATE: Inspection "Declaration is inferred to be not null" + QF
