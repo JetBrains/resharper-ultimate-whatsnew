@@ -5,9 +5,9 @@ using JetBrains.Annotations;
 // ReSharper disable UnusedVariable
 // ReSharper disable UnusedMember.Local
 
-namespace ClassLibrary
+namespace ReSharper101EAP1
 {
-    public class ReSharper10EAP1
+    public class ReSharper101EAP1
     {
         // UPDATE: CAs to split or join attribute sections
         [ItemNotNull, AssertionMethod]
