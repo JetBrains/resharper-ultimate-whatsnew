@@ -51,3 +51,11 @@ BundleArtifacts/
 # but keep track of directories ending in .cache
 !*.[Cc]ache/
 
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
