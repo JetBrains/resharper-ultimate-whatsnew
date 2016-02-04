@@ -11,6 +11,6 @@ class ReSharperCpp101EAP1
 	ReSharperCpp101EAP1();
 	~ReSharperCpp101EAP1();
 
+	static int returnNumber();
 
 };
-
