@@ -32,6 +32,9 @@ namespace ReSharper101EAP1
 
             // UPDATE: Inspection "Redundant verbatim identifier" + QF
             string @from = input;
+
+            // UPDATE: CA "Use String.Equals() method"
+            var areEqual = "a" == "A";
         }
 
         private void ShowcaseCSharp6(string input)
