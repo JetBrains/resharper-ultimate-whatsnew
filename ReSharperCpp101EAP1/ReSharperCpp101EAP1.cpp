@@ -13,7 +13,7 @@ ReSharperCpp101EAP1::~ReSharperCpp101EAP1()
 }
 
 
-int ReSharperCpp101EAP1::returnNumber()
+int ReSharperCpp101EAP1::changeReturnType()
 {
 	const char* wrongType = "asdf";
 
@@ -21,3 +21,18 @@ int ReSharperCpp101EAP1::returnNumber()
 	return wrongType;
 
 };
+
+void ReSharperCpp101EAP1::makeMemberMutable()
+{
+	const struct
+	{
+		int n1;
+		int n2;
+	} 
+	
+	x = { 0, 0 };
+
+	// UPDATE: QF "Make data member mutable"
+	x.n1 = 2;
+	x.n2 = 4;
+}
