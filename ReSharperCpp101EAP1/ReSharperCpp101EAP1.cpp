@@ -30,9 +30,10 @@ void ReSharperCpp101EAP1::makeMemberMutable()
 		int n2;
 	} 
 	
-	x = { 0, 0 };
+	constStruct = { 0, 0 };
 
 	// UPDATE: QF "Make data member mutable"
-	x.n1 = 2;
-	x.n2 = 4;
+	constStruct.n1 = 2;
+	constStruct.n2 = 4;
 }
+
