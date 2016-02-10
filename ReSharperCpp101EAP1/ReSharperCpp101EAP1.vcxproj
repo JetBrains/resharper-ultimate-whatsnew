@@ -113,6 +113,7 @@
     <ClInclude Include="ReSharperCpp101EAP1.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="makeMemberFunctionNonConst.cpp" />
     <ClCompile Include="ReSharperCpp101EAP1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
