@@ -29,5 +29,8 @@
     <ClCompile Include="generate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="makeBaseNonFinal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

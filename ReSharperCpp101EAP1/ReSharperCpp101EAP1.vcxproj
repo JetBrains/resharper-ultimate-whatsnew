@@ -114,6 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="generate.cpp" />
+    <ClCompile Include="makeBaseNonFinal.cpp" />
     <ClCompile Include="makeMemberFunctionNonConst.cpp" />
     <ClCompile Include="ReSharperCpp101EAP1.cpp" />
   </ItemGroup>
