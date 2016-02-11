@@ -44,9 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class2.cs" />
-    <Compile Include="ReSharper101CSharp.cs" />
+    <Compile Include="CheckMethodInputParameters.cs" />
+    <Compile Include="CSharp6.cs" />
+    <Compile Include="NullabilityAnnotations.cs" />
+    <Compile Include="Rename.cs" />
+    <Compile Include="Miscellaneous.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartPaste.cs" />
+    <Compile Include="StringActions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

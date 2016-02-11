@@ -6,11 +6,10 @@
 
 namespace ReSharper101CSharp
 {
-    public class Class2
+    public class Rename
     {
 
-        // Rename refactoring
-
+        // 101EAP3: Revised Rename refactoring
         /// <summary>
         /// Adds new package source to the list
         /// </summary>
@@ -22,9 +21,6 @@ namespace ReSharper101CSharp
                 throw new ArgumentNullException("sourcePath");
             if (name == null)
                 throw new ArgumentNullException("name");
-
-
-
 
         }
     }
