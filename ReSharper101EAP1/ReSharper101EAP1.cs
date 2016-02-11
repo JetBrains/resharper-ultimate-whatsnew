@@ -37,10 +37,10 @@ namespace ReSharper101EAP1
         {
             /*
                var p = Test();
-               var s = p.ToString(); // Warning: Possible 'System.NullReferenceException'
+               var s = p.ToString(); // Warning: Possible "System.NullReferenceException"
             */
             // UPDATE: Smart Paste (result of smart pasting the code snippet shown above)
-            var pastedCodeSnippet = "var p = Test();\r\n                var s = p.ToString(); // Warning: Possible \'System.NullReferenceException\'";
+            var pastedCodeSnippet = "var p = Test();\r\n               var s = p.ToString(); // Warning: Possible \"System.NullReferenceException\"";
 
             // UPDATE: Smart Paste (result of smart pasting string literal from a regular string literal (pastedCodeSnippet) to a verbatim string literal)
             var pastedFromRegularToVerbatim = @"var p = Test();
