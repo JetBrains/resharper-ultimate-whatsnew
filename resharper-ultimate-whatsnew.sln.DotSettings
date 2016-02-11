@@ -3,10 +3,52 @@
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=AnnotateNotNullEntity/@EntryIndexedValue">SUGGESTION</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FBLOCK_005FSCOPE_005FFUNCTION/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FCLASS/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=89E1BEF77C513E41A13281794931CE6F/@KeyIndexDefined">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=89E1BEF77C513E41A13281794931CE6F/CaseSensitive/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=89E1BEF77C513E41A13281794931CE6F/Color/@EntryValue">DodgerBlue</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=89E1BEF77C513E41A13281794931CE6F/MatchComments/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=89E1BEF77C513E41A13281794931CE6F/Name/@EntryValue">Update</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=89E1BEF77C513E41A13281794931CE6F/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;UPDATE)(\W|$)(.*)</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=89E1BEF77C513E41A13281794931CE6F/TodoIconStyle/@EntryValue">Normal</s:String></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=6E4044BE6B115D439E964543C56CC922/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=6E4044BE6B115D439E964543C56CC922/CaseSensitive/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=6E4044BE6B115D439E964543C56CC922/Color/@EntryValue">DodgerBlue</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=6E4044BE6B115D439E964543C56CC922/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=6E4044BE6B115D439E964543C56CC922/Name/@EntryValue">ReSharper Ultimate 10.1 EAP 3</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=6E4044BE6B115D439E964543C56CC922/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;101EAP3)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=6E4044BE6B115D439E964543C56CC922/TodoIconStyle/@EntryValue">Normal</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=89E1BEF77C513E41A13281794931CE6F/@KeyIndexDefined">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C581902E4ECB5549B5F19B56F8889CBD/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C581902E4ECB5549B5F19B56F8889CBD/CaseSensitive/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C581902E4ECB5549B5F19B56F8889CBD/Color/@EntryValue">DodgerBlue</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C581902E4ECB5549B5F19B56F8889CBD/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C581902E4ECB5549B5F19B56F8889CBD/Name/@EntryValue">ReSharper Ultimate 10.1 EAP 2</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C581902E4ECB5549B5F19B56F8889CBD/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;101EAP2)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C581902E4ECB5549B5F19B56F8889CBD/TodoIconStyle/@EntryValue">Normal</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C7335053FB18954BB475483F7A61456B/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C7335053FB18954BB475483F7A61456B/CaseSensitive/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C7335053FB18954BB475483F7A61456B/Color/@EntryValue">DodgerBlue</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C7335053FB18954BB475483F7A61456B/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C7335053FB18954BB475483F7A61456B/Name/@EntryValue">ReSharper Ultimate 10.1 EAP 5</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C7335053FB18954BB475483F7A61456B/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;101EAP5)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=C7335053FB18954BB475483F7A61456B/TodoIconStyle/@EntryValue">Normal</s:String>
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=DAF3D4B132552F4A9FCFCFF276A9FE56/@KeyIndexDefined">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E5FF8F758E5F634CB9BB5CD25580488E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E5FF8F758E5F634CB9BB5CD25580488E/CaseSensitive/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E5FF8F758E5F634CB9BB5CD25580488E/Color/@EntryValue">DodgerBlue</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E5FF8F758E5F634CB9BB5CD25580488E/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E5FF8F758E5F634CB9BB5CD25580488E/Name/@EntryValue">ReSharper Ultimate 10.1 EAP 4</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E5FF8F758E5F634CB9BB5CD25580488E/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;101EAP4)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=E5FF8F758E5F634CB9BB5CD25580488E/TodoIconStyle/@EntryValue">Normal</s:String>
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=EC9E317BBA723A4DBD89B5A77DC9E912/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=EC9E317BBA723A4DBD89B5A77DC9E912/CaseSensitive/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=EC9E317BBA723A4DBD89B5A77DC9E912/Color/@EntryValue">DodgerBlue</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=EC9E317BBA723A4DBD89B5A77DC9E912/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=EC9E317BBA723A4DBD89B5A77DC9E912/Name/@EntryValue">ReSharper Ultimate 10.1 EAP 1</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=EC9E317BBA723A4DBD89B5A77DC9E912/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;101EAP1)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=EC9E317BBA723A4DBD89B5A77DC9E912/TodoIconStyle/@EntryValue">Normal</s:String></wpf:ResourceDictionary>

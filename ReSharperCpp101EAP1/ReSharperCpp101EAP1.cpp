@@ -9,7 +9,7 @@ ReSharperCpp101EAP1::ReSharperCpp101EAP1()
 
 ReSharperCpp101EAP1::~ReSharperCpp101EAP1()
 {
-	// UPDATE: QF "Remove empty declaration"
+	// 101EAP1: QF "Remove empty declaration"
 }
 
 
@@ -17,7 +17,7 @@ int ReSharperCpp101EAP1::changeReturnType()
 {
 	const char* wrongType = "asdf";
 
-	// UPDATE: QF "Change return type of function"
+	// 101EAP1: QF "Change return type of function"
 	return wrongType;
 
 };
@@ -32,7 +32,7 @@ void ReSharperCpp101EAP1::makeMemberMutable()
 	
 	constStruct = { 0, 0 };
 
-	// UPDATE: QF "Make data member mutable"
+	// 101EAP1: QF "Make data member mutable"
 	constStruct.n1 = 2;
 	constStruct.n2 = 4;
 }

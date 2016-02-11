@@ -1,8 +1,8 @@
 struct X {};
 struct Y {};
 
-// UPDATE: "Generate stream operators" supports Boost.Serialization
-// UPDATE: "Generate relational operators" supports std::tie
+// 101EAP1: "Generate stream operators" supports Boost.Serialization
+// 101EAP1: "Generate relational operators" supports std::tie
 struct Z : X, Y
 {
 	int a, b;
