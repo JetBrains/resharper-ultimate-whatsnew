@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ReSharper101EAP1WCF
+namespace ReSharper101WCF
 {
     public class Service1 : IService1
     {

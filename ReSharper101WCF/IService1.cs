@@ -2,7 +2,7 @@
 using System.Runtime.Serialization;
 using System.ServiceModel;
 
-namespace ReSharper101EAP1WCF
+namespace ReSharper101WCF
 {
     [ServiceContract]
     public interface IService1
