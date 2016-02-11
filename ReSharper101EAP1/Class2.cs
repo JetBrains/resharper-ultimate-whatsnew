@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 // ReSharper disable UnusedMember.Global
 // ReSharper disable UnusedParameter.Global
 // ReSharper disable UseNameofExpression
 
-namespace CsharpFeatures
+namespace ReSharper101EAP1
 {
     public class Class2
     {

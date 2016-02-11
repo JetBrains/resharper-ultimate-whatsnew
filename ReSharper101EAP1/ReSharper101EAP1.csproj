@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class2.cs" />
     <Compile Include="ReSharper101EAP1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
