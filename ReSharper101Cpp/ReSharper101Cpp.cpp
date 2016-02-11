@@ -1,19 +1,19 @@
-#include "ReSharperCpp101EAP1.h"
+#include "ReSharper101Cpp.h"
 
 
 
-ReSharperCpp101EAP1::ReSharperCpp101EAP1()
+ReSharper101Cpp::ReSharper101Cpp()
 {
 }
 
 
-ReSharperCpp101EAP1::~ReSharperCpp101EAP1()
+ReSharper101Cpp::~ReSharper101Cpp()
 {
 	// 101EAP1: QF "Remove empty declaration"
 }
 
 
-int ReSharperCpp101EAP1::changeReturnType()
+int ReSharper101Cpp::changeReturnType()
 {
 	const char* wrongType = "asdf";
 
@@ -22,7 +22,7 @@ int ReSharperCpp101EAP1::changeReturnType()
 
 };
 
-void ReSharperCpp101EAP1::makeMemberMutable()
+void ReSharper101Cpp::makeMemberMutable()
 {
 	const struct
 	{

@@ -1,15 +1,15 @@
 #pragma once
 #include <iostream>
 
-class ReSharperCpp101EAP1
+class ReSharper101Cpp
 {
 	// 101EAP1: QF "Create and initialize field from constructor parameter
-	ReSharperCpp101EAP1(int x, char lalala)
+	ReSharper101Cpp(int x, char lalala)
 	{
 	}
 
-	ReSharperCpp101EAP1();
-	~ReSharperCpp101EAP1();
+	ReSharper101Cpp();
+	~ReSharper101Cpp();
 
 	static int changeReturnType();
 	static void makeMemberMutable();

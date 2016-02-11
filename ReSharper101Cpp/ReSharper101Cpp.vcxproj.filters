@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ReSharperCpp101EAP1.h">
+    <ClInclude Include="ReSharper101Cpp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ReSharperCpp101EAP1.cpp">
+    <ClCompile Include="ReSharper101Cpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="makeMemberFunctionNonConst.cpp">

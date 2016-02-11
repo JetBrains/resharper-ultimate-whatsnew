@@ -20,8 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8DFE18D5-AE3B-4831-A31E-2DDF487FBEDF}</ProjectGuid>
-    <RootNamespace>ReSharperCpp101EAP1</RootNamespace>
+    <RootNamespace>ReSharper101Cpp</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>ReSharper101Cpp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -110,13 +111,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ReSharperCpp101EAP1.h" />
+    <ClInclude Include="ReSharper101Cpp.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="generate.cpp" />
     <ClCompile Include="makeBaseNonFinal.cpp" />
     <ClCompile Include="makeMemberFunctionNonConst.cpp" />
-    <ClCompile Include="ReSharperCpp101EAP1.cpp" />
+    <ClCompile Include="ReSharper101Cpp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
