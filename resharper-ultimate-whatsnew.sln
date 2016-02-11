@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EAP2", "EAP2", "{35243E6F-F
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ReSharper101EAP2NodeJsExpress3", "ReSharper101EAP2NodeJsExpress3\ReSharper101EAP2NodeJsExpress3.njsproj", "{F943F566-0922-4709-9EE9-EF3FD7EEC085}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ReSharper101NodeJsExpress", "ReSharper101NodeJsExpress\ReSharper101NodeJsExpress.njsproj", "{F943F566-0922-4709-9EE9-EF3FD7EEC085}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper101EAP2", "ReSharper101EAP2\ReSharper101EAP2.csproj", "{35979798-D995-4CA3-B8AA-3D05525ACD59}"
 EndProject
