@@ -1,0 +1,1 @@
+To open the NodeJs project, install Node.js (https://nodejs.org/en/download/) and Node.js Tools for Visual Studio (https://www.visualstudio.com/en-us/features/node-js-vs.aspx)
