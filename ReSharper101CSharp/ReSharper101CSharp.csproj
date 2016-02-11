@@ -7,8 +7,8 @@
     <ProjectGuid>{12A1F12D-9879-4301-BD7D-766399745BA7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ReSharper101EAP1</RootNamespace>
-    <AssemblyName>ReSharper101EAP1</AssemblyName>
+    <RootNamespace>ReSharper101CSharp</RootNamespace>
+    <AssemblyName>ReSharper101CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class2.cs" />
-    <Compile Include="ReSharper101EAP1.cs" />
+    <Compile Include="ReSharper101CSharp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

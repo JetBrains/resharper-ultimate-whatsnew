@@ -4,7 +4,7 @@
 // ReSharper disable UnusedParameter.Global
 // ReSharper disable UseNameofExpression
 
-namespace ReSharper101EAP1
+namespace ReSharper101CSharp
 {
     public class Class2
     {
