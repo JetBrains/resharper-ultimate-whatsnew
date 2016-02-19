@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeType.cs" />
     <Compile Include="CheckMethodInputParameters.cs" />
     <Compile Include="CSharp6.cs" />
     <Compile Include="NullabilityAnnotations.cs" />

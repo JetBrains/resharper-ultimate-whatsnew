@@ -9,7 +9,7 @@ namespace ReSharper101CSharp
     public class Rename
     {
 
-        // 101EAP3: Revised Rename refactoring
+        // 101EAP4: Revised Rename refactoring
         /// <summary>
         /// Adds new package source to the list
         /// </summary>
