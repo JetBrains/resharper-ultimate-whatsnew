@@ -34,6 +34,10 @@
       <HintPath>..\packages\JetBrains.Annotations.10.0.0\lib\net20\JetBrains.Annotations.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +50,8 @@
   <ItemGroup>
     <Compile Include="ChangeType.cs" />
     <Compile Include="CheckMethodInputParameters.cs" />
+    <Compile Include="ConvertStringToJsonNet.cs" />
+    <Compile Include="ConvertStringToLinqToXml.cs" />
     <Compile Include="CSharp6.cs" />
     <Compile Include="NullabilityAnnotations.cs" />
     <Compile Include="Rename.cs" />
@@ -53,9 +59,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SmartPaste.cs" />
     <Compile Include="StringActions.cs" />
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="test.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

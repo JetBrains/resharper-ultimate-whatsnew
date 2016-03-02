@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="JsDoc.js" />
     <Compile Include="routes\index.js" />
   </ItemGroup>
   <ItemGroup>
