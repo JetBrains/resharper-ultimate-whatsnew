@@ -14,11 +14,10 @@ namespace ReSharper101CSharp
 
         private void StringToJsonNetDemo()
         {
-            var json = @"{
-                            ""type"" : ""feature"",
-                            ""properties"": {
-                            ""name"" : ""JSON Converter""}
-                            }";
+            var json = @"{ ""type"" : ""feature"",
+                                ""properties"": {
+                                ""name"" : ""JSON Converter""}
+                                }";
             Console.WriteLine(json);
         }
 

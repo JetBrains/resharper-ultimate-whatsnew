@@ -15,7 +15,7 @@
          * @type {MyCallback}
          */
         var callback;
-callback();
+        callback();
 
 
 
