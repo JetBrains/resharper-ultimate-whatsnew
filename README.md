@@ -2,7 +2,7 @@
 
 This solution serves to showcase improvements introduced in new releases of ReSharper Ultimate products in a compact and code-centric way.
 
-To JetBrains employees, it allows reusing sample code across all kinds of communications related to a particular ReSharper Ultimate release, such as blog posts, web help, social media updates, videos and live demos
+To JetBrains employees, it allows reusing sample code across all kinds of communications related to a particular ReSharper Ultimate release, such as blog posts, web help, social media updates, videos and live demos.
 
 To users of ReSharper Ultimate products, it helps get an overview of changes in a particular release by reading code and playing with it.
 
@@ -16,7 +16,7 @@ The projects contain code files with code samples that demonstrate how a particu
 
 To skip irrelevant code and navigate between code samples that demonstrate improvements in a release, use *To-do Explorer* (ReSharper > Windows > To-do Explorer) and filter to show to-do items that correspond to a release you're interested in.
 
-For example, *101EAP1* is a to-do pattern that highlights changes introduced in ReSharper Ultimate 10.1 EAP 1. As soon as ReSharper Ultimate 10.1 hits final release, all patterns that represent its EAP builds will most probably be merged into one pattern: *101RTM*.
+For example, *101EAP1* is a to-do pattern that highlights changes introduced in ReSharper Ultimate 10.1 (2016.1) EAP 1. As soon as ReSharper Ultimate 10.1 (2016.1) hits final release, all patterns that represent its EAP builds are merged into one pattern: *20161RTM*.
 
 The custom to-do patterns representing particular releases are saved in a .dotsettings file that comes with this solution.
 

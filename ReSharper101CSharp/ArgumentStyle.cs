@@ -1,6 +1,6 @@
 ﻿// ReSharper disable UnusedParameter.Local
 
-// TODO: 20161RTM: Code style for named/positional arguments
+// 20161RTM: Code style for named/positional arguments
 
 namespace ReSharper101CSharp
 {
