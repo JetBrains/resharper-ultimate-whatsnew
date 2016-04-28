@@ -10,13 +10,13 @@ namespace ReSharper101CSharp
 {
     public class Miscellaneous
     {
-        // 101EAP1: CAs to split or join attribute sections
+        // 20161RTM: CAs to split or join attribute sections
         [ItemNotNull, AssertionMethod]
         [ItemCanBeNull]
         [AspDataField]
         public IEnumerable<string> ProcessEnumerable(IEnumerable<string> items)
         {
-            // 101EAP1: LINQ transformation suggestions are now downgraded to HINT severity
+            // 20161RTM: LINQ transformation suggestions are now downgraded to HINT severity
             foreach (var item in items)
             {
                 if (item.EndsWith("suffix"))
@@ -34,7 +34,7 @@ namespace ReSharper101CSharp
                 Name = "Invert Boolean Member"
             };
 
-            // 101EAP1: CA "Comment/Uncomment code" (commenting is only available on selection)
+            // 20161RTM: CA "Comment/Uncomment code" (commenting is only available on selection)
             /*
                         var anotherFeature = new Feature
                         {
@@ -52,12 +52,12 @@ namespace ReSharper101CSharp
         Germany = 2
     }
 
-    // 101EAP1: CA "Create another part of the type"
+    // 20161RTM: CA "Create another part of the type"
     public class Feature
     {
         public string Name { get; set; }
 
-        // 101EAP1: Invert boolean member (via Refactor This)
+        // 20161RTM: Invert boolean member (via Refactor This)
         public bool Unavailable { get; set; }
     }
 }

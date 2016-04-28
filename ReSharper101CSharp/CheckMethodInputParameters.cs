@@ -7,10 +7,10 @@ namespace ReSharper101CSharp
 {
     public class CheckMethodInputParameters
     {
-        private void TakeManyParametersAndCheckThemAll(string myString, // 101EAP1: CA "Check parameter for null or empty/whitespace string"
-                                               int myNumber, // 101EAP1: CA "Check if parameter is out of range"
-                                               Country myCountry, // 101EAP1: CA "Check if enum parameter is defined by enum type"
-                                               List<string> moarStrings) // 101EAP1: CA "Check if parameter is an empty collection"
+        private void TakeManyParametersAndCheckThemAll(string myString, // 20161RTM: CA "Check parameter for null or empty/whitespace string"
+                                               int myNumber, // 20161RTM: CA "Check if parameter is out of range"
+                                               Country myCountry, // 20161RTM: CA "Check if enum parameter is defined by enum type"
+                                               List<string> moarStrings) // 20161RTM: CA "Check if parameter is an empty collection"
         {
             if (false)
             {

@@ -10,7 +10,7 @@ namespace ReSharper101CSharp
 {
     class ConvertStringToJsonNet
     {
-        // 101EAP4: CA: Convert JSON string to Newtonsoft JSON.NET object.
+        // 20161RTM: CA: Convert JSON string to Newtonsoft JSON.NET object.
 
         private void StringToJsonNetDemo()
         {

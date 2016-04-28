@@ -5,7 +5,7 @@ namespace ReSharper101CSharp
   class BracesForSingleLinersStyle
   {
 
-    //TODO: 101EAP6 Code style for braces around single-line statements
+    //TODO: 20161RTM Code style for braces around single-line statements
 
     void Test(object arg)
     {

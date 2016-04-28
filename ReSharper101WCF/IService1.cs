@@ -10,12 +10,12 @@ namespace ReSharper101WCF
         [OperationContract]
         string GetData(int value);
 
-        // 101EAP1: Inspection "WCF operation marked as one way with return value" + QF
+        // 20161RTM: Inspection "WCF operation marked as one way with return value" + QF
         [OperationContract(IsOneWay = true)]
         CompositeType GetDataUsingDataContract(CompositeType composite);
     }
 
-    // 101EAP1: Inspection "WCF service doesn't contain any OperationContracts" + QF
+    // 20161RTM: Inspection "WCF service doesn't contain any OperationContracts" + QF
     [ServiceContract]
     interface IService2
     {
@@ -23,7 +23,7 @@ namespace ReSharper101WCF
 
     }
 
-    // 101EAP1: Inspection "WCF OperationContract can be placed only inside a type marked as ServiceContract" + QF
+    // 20161RTM: Inspection "WCF OperationContract can be placed only inside a type marked as ServiceContract" + QF
     interface IService3
     {
         [OperationContract]
@@ -31,7 +31,7 @@ namespace ReSharper101WCF
 
     }
 
-    // 101EAP1: CA "Annotate public fields and properties with [DataMember]"
+    // 20161RTM: CA "Annotate public fields and properties with [DataMember]"
     [DataContract]
     public class CompositeType
     {
@@ -43,7 +43,7 @@ namespace ReSharper101WCF
     }
 
 
-    // 101EAP1: CA "Annotate enum members with [EnumMember]"
+    // 20161RTM: CA "Annotate enum members with [EnumMember]"
     [SuppressMessage("ReSharper", "InconsistentNaming"), 
      SuppressMessage("ReSharper", "UnusedMember.Global")]
     [DataContract]

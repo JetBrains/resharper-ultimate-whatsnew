@@ -16,10 +16,10 @@ private:
 	int m_position;
 };
 
-// 101EAP1: QF "Make base class non-final"
+// 20161RTM: QF "Make base class non-final"
 class glitch_element : public BaseClass
 {
 public:
-	// 101EAP1: QF "Make base function non-final"
+	// 20161RTM: QF "Make base function non-final"
 	const double GetDistance() override;
 };

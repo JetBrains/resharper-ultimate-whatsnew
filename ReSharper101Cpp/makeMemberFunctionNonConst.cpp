@@ -8,6 +8,6 @@ struct B
 
 void B::foo() const
 {
-	// 101EAP1: QF "Make member function non-const"
+	// 20161RTM: QF "Make member function non-const"
 	a = A();
 }

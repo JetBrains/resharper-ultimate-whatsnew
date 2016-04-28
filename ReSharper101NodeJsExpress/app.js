@@ -1,6 +1,6 @@
 ﻿
 /**
- *  101EAP2: Support for Node.js
+ *  20161RTM: Support for Node.js
  * */
 
 /**

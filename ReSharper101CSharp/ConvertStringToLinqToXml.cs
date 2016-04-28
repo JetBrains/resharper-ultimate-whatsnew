@@ -9,7 +9,7 @@ namespace ReSharper101CSharp
 {
     class ConvertStringToLinqToXml
     {
-        // 101EAP4: CA: Convert XML string to LINQ to XML object.
+        // 20161RTM: CA: Convert XML string to LINQ to XML object.
 
         private void StringToLinqXmlDemo()
         {

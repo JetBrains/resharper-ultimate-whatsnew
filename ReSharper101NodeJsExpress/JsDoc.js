@@ -1,5 +1,5 @@
 ﻿/*
- * 101EAP4: JsDoc improvements: generics, HTML markup, and parameters with properties
+ * 20161RTM: JsDoc improvements: generics, HTML markup, and parameters with properties
  * */
 
         /**

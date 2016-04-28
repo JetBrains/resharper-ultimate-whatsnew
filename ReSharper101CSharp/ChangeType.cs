@@ -5,7 +5,7 @@ namespace ReSharper101CSharp
 {
     public class ChangeType
     {
-         // 101EAP3: Cleaner highlighting of type mismatch (provided that "Suppress Visual Studio squiggles" is on in ReSharper settings) and more available QFs (caret at <decimal>)
+         // 20161RTM: Cleaner highlighting of type mismatch (provided that "Suppress Visual Studio squiggles" is on in ReSharper settings) and more available QFs (caret at <decimal>)
          public IFilteredCollection<string, IEnumerable<double>> Field = new CollectionWithDefaultFilter<List<decimal>>();
     }
 

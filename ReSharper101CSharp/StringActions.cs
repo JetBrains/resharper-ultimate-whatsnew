@@ -7,13 +7,13 @@ namespace ReSharper101CSharp
     {
         private void ShowcaseStringActions(string input)
         {
-            // 101EAP1: Inspection "Redundant string verbatimity sign" + QF
+            // 20161RTM: Inspection "Redundant string verbatimity sign" + QF
             string s = $@"{input} yo";
 
-            // 101EAP1: Inspection "Redundant verbatim identifier" + QF
+            // 20161RTM: Inspection "Redundant verbatim identifier" + QF
             string @from = input;
 
-            // 101EAP1: CA "Use String.Equals() method"
+            // 20161RTM: CA "Use String.Equals() method"
             var areEqual = "a" == "A";
         }
 

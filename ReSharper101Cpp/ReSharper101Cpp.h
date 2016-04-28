@@ -3,7 +3,7 @@
 
 class ReSharper101Cpp
 {
-	// 101EAP1: QF "Create and initialize field from constructor parameter
+	// 20161RTM: QF "Create and initialize field from constructor parameter
 	ReSharper101Cpp(int x, char lalala)
 	{
 	}
