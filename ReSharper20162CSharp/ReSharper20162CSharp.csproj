@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\DeleteComments.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\DotCompletion.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\GuardArguments.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\MakePartialRefactoring.cs" />
