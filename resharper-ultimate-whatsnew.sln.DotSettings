@@ -6,6 +6,19 @@
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UnusedMember_002ELocal/@EntryIndexedValue">DO_NOT_SHOW</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FBLOCK_005FSCOPE_005FFUNCTION/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FCLASS/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/Comment/@EntryValue">Avoid use of local time</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/CustomPatternPlaceholder/=t/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/CustomPatternPlaceholder/=t/Properties/=ExactType/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/CustomPatternPlaceholder/=t/Properties/=Type/@EntryIndexedValue">System.DateTime</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/CustomPatternPlaceholder/=t/Type/@EntryValue">TypePlaceholder</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/IsReplacePattern/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/LanguageName/@EntryValue">CSHARP</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/ReplaceComment/@EntryValue">Replace with UTC</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/ReplacePattern/@EntryValue">System.DateTime.UtcNow</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/SearchPattern/@EntryValue">$t$.Now</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/Severity/@EntryValue">SUGGESTION</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/SuppressionKey/@EntryValue">MyDateTimeNow</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=5640A63FC707C7418CBA08C38BA8D80A/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=5640A63FC707C7418CBA08C38BA8D80A/CaseSensitive/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=5640A63FC707C7418CBA08C38BA8D80A/Color/@EntryValue">DodgerBlue</s:String>
