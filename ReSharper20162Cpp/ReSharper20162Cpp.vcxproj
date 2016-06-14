@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="deprecatedAttribute.cpp" />
     <ClCompile Include="inlineVariable.cpp" />
     <ClCompile Include="replaceZeroWithFalse.cpp" />
   </ItemGroup>

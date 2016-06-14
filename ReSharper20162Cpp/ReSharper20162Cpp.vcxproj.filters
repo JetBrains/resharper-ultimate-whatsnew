@@ -21,5 +21,8 @@
     <ClCompile Include="replaceZeroWithFalse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="deprecatedAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
