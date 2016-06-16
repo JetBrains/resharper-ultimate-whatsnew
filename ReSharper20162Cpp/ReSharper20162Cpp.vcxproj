@@ -143,8 +143,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="deprecatedAttribute.cpp" />
+    <ClCompile Include="DoxygenComments.cpp" />
     <ClCompile Include="inlineVariable.cpp" />
     <ClCompile Include="replaceZeroWithFalse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DoxygenComments.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
