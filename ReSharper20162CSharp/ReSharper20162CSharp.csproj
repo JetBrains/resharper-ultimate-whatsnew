@@ -55,6 +55,7 @@
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\MakePartialRefactoring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\MoveNestedToFileRefacrtoring.cs" />
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\StructuralNavigation.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\SuppressSsrHighlight.cs" />
   </ItemGroup>
   <ItemGroup>
