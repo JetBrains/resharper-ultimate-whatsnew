@@ -40,10 +40,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ReSharper 2016.2\ReSharper20162JS\RenameJsDoc.js" />
+    <None Include="tsconfig.json" />
+    <None Include="bower.json" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\ComputeConstantOnNameof.cs" />
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\DeleteComments.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\DotCompletion.cs" />
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\FixInvalidEscapeChars.cs" />
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\GuardArguments.cs" />
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\LocaliseInterpolatedStrings.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\MakePartialRefactoring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\MoveNestedToFileRefacrtoring.cs" />
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\StructuralNavigation.cs" />
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\SuppressSsrHighlight.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
