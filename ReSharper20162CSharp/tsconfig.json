@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+
+        // .sln.dotSettings has a value helper for tsconfig.json files
+        // to treat /compilerOptions/rootDir as a path. Invoke completion
+        // inside the string value
+        "rootDir": "src/",
+
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "../../built/local/tsc.js",
+        "sourceMap": true
+    },
+    "files": [
+        "core.ts",
+        "sys.ts",
+        "types.ts",
+        "scanner.ts",
+        "parser.ts",
+        "utilities.ts",
+        "binder.ts",
+        "checker.ts",
+        "emitter.ts",
+        "program.ts",
+        "commandLineParser.ts",
+        "tsc.ts",
+        "diagnosticInformationMap.generated.ts"
+    ]
+}

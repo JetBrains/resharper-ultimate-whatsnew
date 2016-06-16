@@ -6,6 +6,22 @@
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UnusedMember_002ELocal/@EntryIndexedValue">DO_NOT_SHOW</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FBLOCK_005FSCOPE_005FFUNCTION/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FCLASS/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/JsonFeatures/=3b7fffac_002Dff1c_002D44d1_002D86a9_002Df6db353b8016/@KeyIndexDefined">False</s:Boolean>
+	<s:String x:Key="/Default/JsonFeatures/=3b7fffac_002Dff1c_002D44d1_002D86a9_002Df6db353b8016/FeatureId/@EntryValue"></s:String>
+	<s:String x:Key="/Default/JsonFeatures/=3b7fffac_002Dff1c_002D44d1_002D86a9_002Df6db353b8016/Id/@EntryValue"></s:String>
+	<s:Boolean x:Key="/Default/JsonFeatures/=93050083_002D7dcd_002D4a46_002Da1e8_002D4f8b4cff642c/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/JsonFeatures/=93050083_002D7dcd_002D4a46_002Da1e8_002D4f8b4cff642c/FeatureId/@EntryValue">FilePathReference</s:String>
+	<s:String x:Key="/Default/JsonFeatures/=93050083_002D7dcd_002D4a46_002Da1e8_002D4f8b4cff642c/FileMask/@EntryValue">tsconfig.json</s:String>
+	<s:String x:Key="/Default/JsonFeatures/=93050083_002D7dcd_002D4a46_002Da1e8_002D4f8b4cff642c/Id/@EntryValue">93050083-7dcd-4a46-a1e8-4f8b4cff642c</s:String>
+	<s:Boolean x:Key="/Default/JsonFeatures/=93050083_002D7dcd_002D4a46_002Da1e8_002D4f8b4cff642c/IsEnabled/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/JsonFeatures/=93050083_002D7dcd_002D4a46_002Da1e8_002D4f8b4cff642c/PathMask/@EntryValue">/compilerOptions/rootDir</s:String>
+	<s:String x:Key="/Default/JsonFeatures/=93050083_002D7dcd_002D4a46_002Da1e8_002D4f8b4cff642c/Schema/@EntryValue"></s:String>
+	<s:Boolean x:Key="/Default/JsonFeatures/=a24a1f62_002D2262_002D4312_002D8875_002Dd2045b9ba725/@KeyIndexDefined">False</s:Boolean>
+	
+	
+	
+	
+	
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/Comment/@EntryValue">Avoid use of local time</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F58C9601D5138549B07BCC8472DC8AF3/CustomPatternPlaceholder/=t/@KeyIndexDefined">True</s:Boolean>

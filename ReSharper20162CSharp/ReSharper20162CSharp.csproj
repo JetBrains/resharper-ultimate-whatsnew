@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ReSharper 2016.2\ReSharper20162JS\RenameJsDoc.js" />
+    <None Include="tsconfig.json" />
     <None Include="bower.json" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
