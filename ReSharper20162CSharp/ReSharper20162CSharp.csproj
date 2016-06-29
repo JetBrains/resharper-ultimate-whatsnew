@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\DotCompletion.cs" />
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\InjectedHtml.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\MakePartialRefactoring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\MoveNestedToFileRefacrtoring.cs" />

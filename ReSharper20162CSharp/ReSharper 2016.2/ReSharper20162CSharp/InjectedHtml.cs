@@ -1,0 +1,27 @@
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
+
+namespace ReSharper20162CSharp.ReSharper_2016._2.ReSharper20162CSharp
+{
+  [SuppressMessage("ReSharper", "ConvertToConstant.Local")]
+  class InjectedHtml
+  {
+
+    //20162EAP5: 'Make HTML here' context action
+    public InjectedHtml()
+    {
+      var myHtml = @"<p>Lorem ipsum dolor sit amet, 
+      <i>consectetur adipiscing elit</i>, sed do eiusmod dolore magna aliqua. 
+      Ut enim ad <i>minim veniam</b>, quis nostrud exercitation 
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>";
+
+
+
+
+
+
+
+      Console.WriteLine(myHtml);
+    }
+  }
+}
