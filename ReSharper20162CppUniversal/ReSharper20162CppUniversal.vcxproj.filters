@@ -6,4 +6,18 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="ReSharper20162CppUniversal.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Address.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReSharper20162CppUniversal.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Address.h" />
+  </ItemGroup>
 </Project>
