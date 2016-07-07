@@ -9,6 +9,7 @@
 
 # WebStorm directory
 .idea/
+.idea.*/
 
 # Build results
 [Dd]ebug/
