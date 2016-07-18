@@ -45,6 +45,11 @@
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\MakePartialRefactoring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\MoveNestedToFileRefacrtoring.cs" />
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\Templates.cs" />
+    <Compile Include="ReSharper 2016.2\ReSharper20162CSharp\VerbatimInterpolation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="TypeScript2016.2.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
