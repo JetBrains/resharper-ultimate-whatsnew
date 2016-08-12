@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace ReSharper20162CSharp.ReSharper_2016._2.ReSharper20162CSharp
+namespace ReSharper20162CSharp
 {
   [SuppressMessage("ReSharper", "ConvertToConstant.Local")]
   class InjectedHtml

@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.IO;
 
-namespace ReSharper20162CSharp.ReSharper_2016._2.ReSharper20162CSharp
+namespace ReSharper20162CSharp
 {
   class Templates
   {
