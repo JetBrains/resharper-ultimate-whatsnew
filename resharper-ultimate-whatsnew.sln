@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25401.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper101CSharp", "ReSharper101CSharp\ReSharper101CSharp.csproj", "{12A1F12D-9879-4301-BD7D-766399745BA7}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper20162CSharp", "ReSharper20162CSharp\ReSharper20162CSharp.csproj", "{46246534-5709-4258-AC68-448176331AF7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReSharper20162CppUniversal", "ReSharper20162CppUniversal\ReSharper20162CppUniversal.vcxproj", "{B563F300-40BF-4AFE-8BB8-4628747E397C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper20162TypeScript", "ReSharper20162TypeScript\ReSharper20162TypeScript.csproj", "{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +145,22 @@ Global
 		{B563F300-40BF-4AFE-8BB8-4628747E397C}.Release|x64.Build.0 = Release|x64
 		{B563F300-40BF-4AFE-8BB8-4628747E397C}.Release|x86.ActiveCfg = Release|Win32
 		{B563F300-40BF-4AFE-8BB8-4628747E397C}.Release|x86.Build.0 = Release|Win32
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Debug|ARM.Build.0 = Debug|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Debug|x86.Build.0 = Debug|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Release|ARM.ActiveCfg = Release|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Release|ARM.Build.0 = Release|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Release|x64.Build.0 = Release|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,5 +173,6 @@ Global
 		{F943F566-0922-4709-9EE9-EF3FD7EEC085} = {A67D8224-EC2A-4A79-AE19-3778AAF4FC6E}
 		{46246534-5709-4258-AC68-448176331AF7} = {4045B2E8-62E0-4500-8956-D858D9F0FF8D}
 		{B563F300-40BF-4AFE-8BB8-4628747E397C} = {4045B2E8-62E0-4500-8956-D858D9F0FF8D}
+		{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2} = {4045B2E8-62E0-4500-8956-D858D9F0FF8D}
 	EndGlobalSection
 EndGlobal
