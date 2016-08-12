@@ -19,5 +19,6 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Address.h" />
+    <ClInclude Include="Doxygen.h" />
   </ItemGroup>
 </Project>

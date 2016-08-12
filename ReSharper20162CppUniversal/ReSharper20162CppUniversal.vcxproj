@@ -189,6 +189,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Address.h" />
+    <ClInclude Include="Doxygen.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="ReSharper20162CppUniversal.h" />
     <ClInclude Include="pch.h" />
