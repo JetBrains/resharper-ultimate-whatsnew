@@ -40,13 +40,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComputeConstantOnNameof.cs" />
+    <Compile Include="DeleteComments.cs" />
     <Compile Include="DotCompletion.cs" />
+    <Compile Include="FixInvalidEscapeChars.cs" />
+    <Compile Include="GuardArguments.cs" />
     <Compile Include="InjectedHtml.cs" />
+    <Compile Include="LocaliseInterpolatedStrings.cs" />
     <Compile Include="MakePartialRefactoring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MoveNestedToFileRefacrtoring.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StructuralNavigation.cs" />
+    <Compile Include="SuppressSsrHighlight.cs" />
     <Compile Include="Templates.cs" />
     <Compile Include="VerbatimInterpolation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
