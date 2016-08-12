@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper20162CSharp", "ReS
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReSharper20162CppUniversal", "ReSharper20162CppUniversal\ReSharper20162CppUniversal.vcxproj", "{B563F300-40BF-4AFE-8BB8-4628747E397C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper20162TypeScript", "ReSharper20162TypeScript\ReSharper20162TypeScript.csproj", "{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper20162TS-JS", "ReSharper20162TS-JS\ReSharper20162TS-JS.csproj", "{EB8D4A8E-B80D-4526-8ADB-E48C44197FE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

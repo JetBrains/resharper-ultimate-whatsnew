@@ -22,6 +22,12 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+# Bower
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
 # Visual Studio 2015 cache/options directory
 .vs/
 
