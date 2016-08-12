@@ -12,6 +12,9 @@
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Address.cpp" />
+    <ClCompile Include="deprecatedAttribute.cpp" />
+    <ClCompile Include="inlineVariable.cpp" />
+    <ClCompile Include="replaceZeroWithFalse.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReSharper20162CppUniversal.h" />

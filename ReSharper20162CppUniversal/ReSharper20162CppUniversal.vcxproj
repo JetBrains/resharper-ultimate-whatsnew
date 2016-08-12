@@ -197,8 +197,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Address.cpp" />
+    <ClCompile Include="deprecatedAttribute.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="inlineVariable.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="replaceZeroWithFalse.cpp" />
     <ClCompile Include="ReSharper20162CppUniversal.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
