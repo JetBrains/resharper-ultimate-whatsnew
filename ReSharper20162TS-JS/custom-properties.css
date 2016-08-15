@@ -7,7 +7,7 @@
     --multiplier: 2;
 
     /* Inspections/quick-fixes: Alt+Enter on --double-spacing will suggest to remove the property because it's not used'*/
-    --double-spacing: (var(--multiplier) * var(--spacing-base));
+    --double-spacing: calc((var(--multiplier) * var(--spacing-base)));
 }
 
 .one {
