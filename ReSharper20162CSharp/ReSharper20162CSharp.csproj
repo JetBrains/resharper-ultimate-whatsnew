@@ -48,6 +48,7 @@
     <Compile Include="InjectedHtml.cs" />
     <Compile Include="LocaliseInterpolatedStrings.cs" />
     <Compile Include="MakePartialRefactoring.cs" />
+    <Compile Include="InheritDoc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MoveNestedToFileRefacrtoring.cs" />
     <Compile Include="Resources.Designer.cs">
