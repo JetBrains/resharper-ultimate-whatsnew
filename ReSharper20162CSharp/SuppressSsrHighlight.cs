@@ -6,7 +6,7 @@ namespace ReSharper20162CSharp
     {
         public void SuppressHighlightOfLocalisedDateTimeNow()
         {
-            // 20162EAP4: SSR pattern from solution will flag DateTime.Now as a suggestion
+            // 20162RTM: SSR pattern from solution will flag DateTime.Now as a suggestion
             // Alt+Enter to allow "Disable once with comment"
             var dateTime = DateTime.Now;
             Console.WriteLine(dateTime);

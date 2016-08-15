@@ -6,7 +6,7 @@ namespace ReSharper20162CSharp
     {
         public void Say(string message)
         {
-            // 20162EAP4: Non-localised interpolated string, highlighted as warning
+            // 20162RTM: Non-localised interpolated string, highlighted as warning
             // "Move to resource" available as both quick fix and via refactoring
             Console.WriteLine($"Hello {message}");
         }

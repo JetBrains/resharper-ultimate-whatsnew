@@ -1,6 +1,6 @@
 ﻿Option Strict On
 
-' 20162EAP4: VB string interpolation
+' 20162RTM: VB string interpolation
 Public Class StringInterpolation
     Sub ConvertStringFormat(name As String)
         Dim message = String.Format("Hello {0}", name)

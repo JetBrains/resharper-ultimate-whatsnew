@@ -4,7 +4,7 @@
     {
         public string GetName()
         {
-            // 20162EAP4: Place caret on `nameof`, Alt+Enter and "Compute constant value"
+            // 20162RTM: Place caret on `nameof`, Alt+Enter and "Compute constant value"
             return nameof(ComputeConstantOnNameof);
         }
     }

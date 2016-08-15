@@ -506,7 +506,7 @@ namespace ReSharper20162CSharp
     }
     #endregion
 
-    //20162EAP1: 'Make Partial' refactoring. Try Ctrl+Shift+R on the region name
+    //20162RTM: 'Make Partial' refactoring. Try Ctrl+Shift+R on the region name
 
     #region Subscription 
     private class SubscriptionItem

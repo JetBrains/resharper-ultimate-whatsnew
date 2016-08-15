@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// 20162EAP4: Find Usages and Rename takes into account usages in Doxygen comments
+// 20162RTM: Find Usages and Rename takes into account usages in Doxygen comments
 class DoxygenComments
 {
 public:

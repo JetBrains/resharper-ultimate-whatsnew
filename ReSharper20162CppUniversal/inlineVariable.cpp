@@ -2,7 +2,7 @@
 
 class InlineVariable
 {
-	// 20162EAP4: Inline Variable in C++
+	// 20162RTM: Inline Variable in C++
 	static int getValue(int input1, int input2)
 	{
 		auto result = input1 + input2;

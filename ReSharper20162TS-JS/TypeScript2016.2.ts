@@ -1,6 +1,6 @@
 ﻿
 
-//20162EAP8: Abstract members generation in TypeScript
+//20162RTM: Abstract members generation in TypeScript
 
       abstract class Animal {
         abstract makeSound(): void;

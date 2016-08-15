@@ -10,7 +10,7 @@ public:
 	}
 };
 
-// 20162EAP4: Inspection: usage of deprecated symbols
+// 20162RTM: Inspection: usage of deprecated symbols
 static void globalFunction()
 {
 	auto p = DeprecatedClass::deprecatedFunction();

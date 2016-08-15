@@ -14,7 +14,7 @@ namespace ReSharper20162CSharp
   public class Class1
   {
 
-    //20162EAP8: Surrond templates in completion suggestions. Select the statement and type 'if', then press Enter
+    //20162RTM: Surrond templates in completion suggestions. Select the statement and type 'if', then press Enter
 
     void Foo(string fileName, byte[] buffer)
     {

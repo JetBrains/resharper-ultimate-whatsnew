@@ -7,7 +7,7 @@ namespace ReSharper20162CSharp
   class VerbatimInterpolation
   {
 
-    //20162EAP8: Auto-correction of @$ in vebatim string
+    //20162RTM: Auto-correction of @$ in vebatim string
 
     void Foo(string name)
     {

@@ -3,7 +3,7 @@
 
 class ReplaceZeroWithBoolean
 {
-	// 20162EAP4: Inspection/QF in C++ to convert to bool constant
+	// 20162RTM: Inspection/QF in C++ to convert to bool constant
 	static bool getFalseValue()
 	{
 		// Place caret on the 0 below, Alt+Enter → Replace expression with false

@@ -1,4 +1,4 @@
-﻿// 20162EAP4: Rename parameters updates JSON
+﻿// 20162RTM: Rename parameters updates JSON
 /**
  * Represents a book.
  * @constructor
