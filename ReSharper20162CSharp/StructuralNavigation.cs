@@ -7,7 +7,8 @@ namespace ReSharper20162CSharp
     {
         public void DoSomethingElse()
         {
-            // 20162RTM: Hit Tab or Shift+Tab to cycle through method parameters
+            // 20162RTM: Structural navigation
+            // Hit Tab or Shift+Tab to cycle through method parameters
             // Hit Tab or Shift+Tab at the start of the line to indent/outdent
             DoSomething("Hello", "to", "Jason", "Isaacs");
         }
