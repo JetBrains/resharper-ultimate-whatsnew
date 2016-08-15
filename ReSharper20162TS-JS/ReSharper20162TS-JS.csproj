@@ -26,6 +26,7 @@
     <Content Include="completion-in-bower-js.js" />
     <Content Include="custom-properties.css" />
     <Content Include="index.html" />
+    <Content Include="json-value-helpers.js" />
     <Content Include="RenameJsDoc.js" />
     <Content Include="web.config" />
   </ItemGroup>
@@ -35,6 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bower.json" />
+    <Content Include="tsconfig.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
