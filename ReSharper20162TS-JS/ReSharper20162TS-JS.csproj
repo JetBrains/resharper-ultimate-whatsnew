@@ -24,6 +24,7 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="completion-in-bower-js.js" />
+    <Content Include="custom-properties.css" />
     <Content Include="index.html" />
     <Content Include="RenameJsDoc.js" />
     <Content Include="web.config" />

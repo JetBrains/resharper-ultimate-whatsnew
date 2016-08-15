@@ -1,0 +1,32 @@
+﻿/* 20162RTM: CSS custom properties */
+
+:root {
+    /* Find usages on --main-bg-color should show 2 references in Find Results */
+    --main-bg-color: brown;
+    --spacing-base: 10px;
+    --multiplier: 2;
+
+    /* Inspections/quick-fixes: Alt+Enter on --double-spacing will suggest to remove the property because it's not used'*/
+    --double-spacing: (var(--multiplier) * var(--spacing-base));
+}
+
+.one {
+    color: white;
+    background-color: var(--main-bg-color);
+    margin: calc(20 * var(--spacing-base))
+}
+
+.two {
+    color: white;
+
+    /* Inspections/quick-fixes: Alt+Enter on --secondary-bg-color: the property is undefined, ReSharper will suggest to remove it and use the fallback black color instead*/
+    background-color: var(--secondary-bg-color, black);
+
+    /* Completion: uncomment the property below and invoke complation at var({caret})*/
+    /* margin: calc(10 * var()) */
+}
+
+.three {
+    background-color: var(--main-bg-color);
+}
+
