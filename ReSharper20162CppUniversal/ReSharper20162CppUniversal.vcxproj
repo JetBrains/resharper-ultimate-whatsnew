@@ -199,6 +199,7 @@
     <ClCompile Include="Address.cpp" />
     <ClCompile Include="deprecatedAttribute.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="GenerateComments.cpp" />
     <ClCompile Include="inlineVariable.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="replaceZeroWithFalse.cpp" />

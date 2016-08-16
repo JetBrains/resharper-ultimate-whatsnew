@@ -15,6 +15,7 @@
     <ClCompile Include="deprecatedAttribute.cpp" />
     <ClCompile Include="inlineVariable.cpp" />
     <ClCompile Include="replaceZeroWithFalse.cpp" />
+    <ClCompile Include="GenerateComments.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReSharper20162CppUniversal.h" />
