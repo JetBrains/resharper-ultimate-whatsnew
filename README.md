@@ -33,3 +33,5 @@ As code in this solution specifically serves to demonstrate ReSharper Ultimate f
     * ReSharper101NodeJsExpress:
         * Node.js (https://nodejs.org/en/download/)
         * Node.js Tools for Visual Studio (https://www.visualstudio.com/en-us/features/node-js-vs.aspx)
+    * ReSharper20162TS-JS:
+        * TypeScript 2.0.0 Beta for Visual Studio 2015 (http://download.microsoft.com/download/6/D/8/6D8381B0-03C1-4BD2-AE65-30FF0A4C62DA/TS2.0.0-TS-release20-nightly-20160708.1/TypeScript_Dev14Full.exe) or later
