@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="ComputeConstantOnNameof.cs" />
     <Compile Include="DeleteComments.cs" />
-    <Compile Include="DotCompletion.cs" />
+    <Compile Include="TypingAssistance.cs" />
     <Compile Include="FixInvalidEscapeChars.cs" />
     <Compile Include="GuardArguments.cs" />
     <Compile Include="InjectedHtml.cs" />
