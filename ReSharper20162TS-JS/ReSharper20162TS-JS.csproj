@@ -33,6 +33,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="TypeScript2016.2.ts" />
+    <TypeScriptCompile Include="TypeScript20.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bower.json" />
