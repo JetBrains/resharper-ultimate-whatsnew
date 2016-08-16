@@ -202,6 +202,7 @@
     <ClCompile Include="GenerateComments.cpp" />
     <ClCompile Include="inlineVariable.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="PointerInitializerCodeStyle.cpp" />
     <ClCompile Include="replaceZeroWithFalse.cpp" />
     <ClCompile Include="ReSharper20162CppUniversal.cpp" />
     <ClCompile Include="pch.cpp">
