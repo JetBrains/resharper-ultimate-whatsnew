@@ -1,3 +1,5 @@
+// 20162RTM: TypeScript 2.0 support
+
 // this sample is to be used with --strictNullChecks
 
 type Result = {status: "OK", text: string} | {status: "FAIL", errorMessage: string}
