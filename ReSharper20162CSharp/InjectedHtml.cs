@@ -7,7 +7,7 @@ namespace ReSharper20162CSharp
   class InjectedHtml
   {
 
-    //20162EAP5: 'Make HTML here' context action
+    // 20162RTM: 'Mark as HTML' context action
     public InjectedHtml()
     {
       var myHtml = @"<p>Lorem ipsum dolor sit amet, 

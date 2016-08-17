@@ -1,4 +1,4 @@
-// 20162RTM: TypeScript 2.0 support
+// 20162RTM: TypeScript 2.0.0 support
 
 // this sample is to be used with --strictNullChecks
 
