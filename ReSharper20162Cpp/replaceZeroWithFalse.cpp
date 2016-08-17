@@ -1,4 +1,4 @@
-﻿#include "pch.h"
+﻿#include "stdafx.h"
 #define MY_TRUE 1000
 
 class ReplaceZeroWithBoolean

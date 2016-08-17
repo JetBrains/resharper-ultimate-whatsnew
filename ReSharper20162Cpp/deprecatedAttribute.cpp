@@ -1,4 +1,4 @@
-﻿#include "pch.h"
+﻿#include "stdafx.h"
 
 class __declspec(deprecated) DeprecatedClass
 {
