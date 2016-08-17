@@ -5,7 +5,7 @@
 type Result = {status: "OK", text: string} | {status: "FAIL", errorMessage: string}
 
 interface ICaller {
-    readonly description: string;
+    readonly description: string; // TS 2.0 readonly properties
 }
 
 declare function fetchData(url: string) : Result;
@@ -16,29 +16,31 @@ function assertNeverGoHere(value: never) {
 
 abstract class DataProvider {
 
-  abstract data: string;
+  abstract data: string; // TS 2.0 abstract properties
 
   protected getResponseText(
-    this: ICaller,
-    url: string | null,  // trailing commas are okay now
+    this: ICaller, // since TS 2.0, it's possible to specify type for 'this' inside a function of method
+    url: string | null,  // trailing commas are okay now as of TS 2.0; also, if tsconfig.json has an option 'strictNullChecks: true', 'null' will be treated as a separate type, not assignable where 'null' is not explicitly allowed
     ) {
     if (url === null)
-        return null;
+        return null; 
 
-    var data = fetchData(url); // 'url' is string
+    var data = fetchData(url); // 'url' is string here, thanks to TS 2.0 control flow aware type guards: we checked for 'null' before and that code path returned
     if (data.status === "OK") {
-        return data.text; // if okay, it has property 'text'
+        // if okay, it has property 'text', because TS 2.0 discriminator type guard is in effect here, narrowing the type only to {status: "OK", text: string} 
+        // due to the fact that we've checked value of property 'status' to be a string "OK"
+        return data.text; 
     }
 
     if (data.status === "FAIL")
-      throw new Error(`Unable to fetch data: ${data.errorMessage},
-       using ${this.description}`); // if fail, it has property errorMessage; also, 'this' here corresponds to specified 'this' parameter
+      throw new Error(`Unable to fetch data: ${data.errorMessage},  // again, TS 2.0 discriminated type, now to {status: "FAIL", errorMessage: string}
+       using ${this.description}`);  // 'this' here corresponds to the type we specified in method signature, not to the containing class!
 
-    assertNeverGoHere(data); // here 'data' should be 'never', because all possible options
+    assertNeverGoHere(data); // TS 2.0 'never' type designates impossible type/unreachable code: due to the fact that we enumerated all the possible values of property 'status' of our 'data', that means, we should never come here
   }  
 }
 
 class MySimpleProvider extends DataProvider {
   constructor(private url: string) { super(); }  
-  get data() { return this.getResponseText(this.url); }
+  get data() { return this.getResponseText(this.url); } // just a stub to illustrate TS 2.0 abstract property implementation
 }
