@@ -1,4 +1,4 @@
-﻿// 20162RTM: Rename parameters updates JSON
+﻿// 20162RTM: Rename parameters updates JsDoc
 /**
  * Represents a book.
  * @constructor
