@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -17,6 +17,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E6E23D78-5D0F-4054-9A1E-FAD68834A6DA}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		WhatsNew.md = WhatsNew.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReSharper 2016.2", "ReSharper 2016.2", "{4045B2E8-62E0-4500-8956-D858D9F0FF8D}"
