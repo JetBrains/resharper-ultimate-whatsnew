@@ -13,3 +13,11 @@
     * C# formatter: new indenting engine with options for parenthesis indenting (see screenshot at RSRP-260807)
     * C# new [typing assists](ReSharper20162CSharp/TypingAssistance.cs) (https://twitter.com/controlflow/status/734508760761270272/photo/1)
     * Mark referenced as used at runtime in optimize references and remove unused referenced ( https://youtrack.jetbrains.com/issue/RSRP-412908, https://youtrack.jetbrains.com/issue/RSRP-287369) 
+* EAP2
+  * ReSharper
+    * Item
+  * ReSharper C++
+  * dotTrace
+  * dotMemory
+  * dotCover
+  * dotPeek
