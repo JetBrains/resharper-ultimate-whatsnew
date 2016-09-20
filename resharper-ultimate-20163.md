@@ -4,7 +4,7 @@
 
 * ReSharper  
   * TypeScript
-    * TypeScript 2.0.1 ("2.0 RC"): boolean, number and enum literal types are supported
+    * TypeScript 2.0.2 ("2.0 RC"): boolean, number and enum literal types are supported
     * Go to implementation
     * 'Surround with type guard' quick fix
     * Performance improvements
