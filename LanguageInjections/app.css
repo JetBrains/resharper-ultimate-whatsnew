@@ -1,0 +1,22 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+span {
+    font-style: italic;
+}
+
+#myId1 {
+  font-size: inherit;
+}
+#myId2 {
+  font-size: inherit;
+}
+
+.myClass1 {
+  font-size: inherit;
+}
+
+.myClass2 {
+  font-size: inherit;
+}

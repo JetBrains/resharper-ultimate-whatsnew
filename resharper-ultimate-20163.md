@@ -2,10 +2,17 @@
 
 ## EAP  1
 
-* ReSharper
-  * Item 1
-  * Item 2
-  * Item 3
+* ReSharper  
+  * TypeScript
+    * TypeScript 2.0.1 ("2.0 RC"): boolean, number and enum literal types are supported
+    * Go to implementation
+    * 'Surround with type guard' quick fix
+    * Performance improvements
+  * More injected languages in strings (via "Mark as" action or via a "//language=" comment)
+    * CSS in strings (JS/TS/C#)
+    * JSON in strings (JS/TS/C#)
+    * supported "prefix=" and "postfix=" for string injections via comment
+  * ...
 * ReSharper C++
 * dotTrace
 * dotCover
