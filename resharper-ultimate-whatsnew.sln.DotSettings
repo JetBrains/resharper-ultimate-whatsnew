@@ -83,8 +83,8 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=632378E43AACD246B5BCF8F881BCBE44/CaseSensitive/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=632378E43AACD246B5BCF8F881BCBE44/Color/@EntryValue">Gold</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=632378E43AACD246B5BCF8F881BCBE44/MatchComments/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=632378E43AACD246B5BCF8F881BCBE44/Name/@EntryValue">ReSharper Ultimate 2016.3 EAP 1</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=632378E43AACD246B5BCF8F881BCBE44/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;20163EAP1)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=632378E43AACD246B5BCF8F881BCBE44/Name/@EntryValue">ReSharper Ultimate 2016.3</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=632378E43AACD246B5BCF8F881BCBE44/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;20163)(\W|$)(.*)</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=632378E43AACD246B5BCF8F881BCBE44/TodoIconStyle/@EntryValue">Normal</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=6E4044BE6B115D439E964543C56CC922/@KeyIndexDefined">False</s:Boolean>
 	

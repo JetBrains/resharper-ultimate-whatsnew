@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper101CSharp", "ReSharper101CSharp\ReSharper101CSharp.csproj", "{12A1F12D-9879-4301-BD7D-766399745BA7}"
 EndProject
@@ -34,6 +34,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScript2016.3", "TypeScript2016.3\TypeScript2016.3.csproj", "{CAD2BE75-8EE7-4863-8F9C-0EF5BD8F37BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageInjections", "LanguageInjections\LanguageInjections.csproj", "{53B82718-2D8D-4298-BA3C-58F1B190CD30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReSharper20163Cpp", "ReSharper20163Cpp\ReSharper20163Cpp.vcxproj", "{F116A63F-8A07-42E1-AB29-0225839715D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +249,22 @@ Global
 		{53B82718-2D8D-4298-BA3C-58F1B190CD30}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{53B82718-2D8D-4298-BA3C-58F1B190CD30}.Release|x64.ActiveCfg = Release|Any CPU
 		{53B82718-2D8D-4298-BA3C-58F1B190CD30}.Release|x86.ActiveCfg = Release|Any CPU
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Debug|ARM.ActiveCfg = Debug|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Debug|x64.ActiveCfg = Debug|x64
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Debug|x64.Build.0 = Debug|x64
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Debug|x86.Build.0 = Debug|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Release|ARM.ActiveCfg = Release|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Release|x64.ActiveCfg = Release|x64
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Release|x64.Build.0 = Release|x64
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Release|x86.ActiveCfg = Release|Win32
+		{F116A63F-8A07-42E1-AB29-0225839715D1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -263,5 +281,6 @@ Global
 		{45BCDFE6-DA84-4121-9A4D-690C5CBDD2E5} = {4045B2E8-62E0-4500-8956-D858D9F0FF8D}
 		{CAD2BE75-8EE7-4863-8F9C-0EF5BD8F37BA} = {7AB1DD12-79DF-4085-AD6F-D0039B58888D}
 		{53B82718-2D8D-4298-BA3C-58F1B190CD30} = {7AB1DD12-79DF-4085-AD6F-D0039B58888D}
+		{F116A63F-8A07-42E1-AB29-0225839715D1} = {7AB1DD12-79DF-4085-AD6F-D0039B58888D}
 	EndGlobalSection
 EndGlobal
