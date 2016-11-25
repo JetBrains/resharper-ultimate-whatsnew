@@ -16,9 +16,13 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="project.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

@@ -1,0 +1,6 @@
+﻿{
+  //20163 Dynamic completion of package names in project configuration files (project.json, package.json, and bower.json)
+  // cursor inside parentheses => start typing 'microsoftmvc' => add Microsoft.AspNet.Mvc package => specify any version
+  "dependencies": { "" }
+
+}

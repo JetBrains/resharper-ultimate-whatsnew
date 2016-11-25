@@ -1,4 +1,6 @@
-﻿//language=css
+﻿//20163 Language injections with comments
+
+//language=css
 var myStyle = ".a {background-color: aquamarine}";
 
 //language=css prefix=.boo {background-color: postfix=}
@@ -11,4 +13,4 @@ var someCssId = "myId2";
 var myJson = "{'name': 'Ivan', \"surname\": \"Petrov\"}";
 
 //language=html prefix=<a postfix= />
-var myAttributesForAnchor = "class=\"myClass1\""; 
+var myAttributesForAnchor = "class=\"myClass1\"";

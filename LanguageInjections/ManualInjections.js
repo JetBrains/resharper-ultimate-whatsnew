@@ -1,3 +1,4 @@
+//20163 Language injections with comments
 //language=css
 var myStyle = ".a {background-color: aquamarine}";
 //language=css prefix=.boo {background-color: postfix=}
