@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="CodeGeneration.cs" />
     <Compile Include="CSharp7.cs" />
+    <Compile Include="IntroduceFromUnusedParameters.cs" />
     <Compile Include="Other.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransformParameters.cs" />

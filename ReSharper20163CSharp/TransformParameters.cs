@@ -1,4 +1,5 @@
-﻿namespace ReSharper20163CSharp
+﻿// ReSharper disable UnusedMember.Global
+namespace ReSharper20163CSharp
 {
   public class TransformParameters
   {
