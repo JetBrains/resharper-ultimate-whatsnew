@@ -20,6 +20,7 @@
   </PropertyGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="literal-completion.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="project.json" />
