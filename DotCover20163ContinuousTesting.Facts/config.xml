@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnalyseParams>
+  <TargetExecutable>..\packages\xunit.runner.console.2.1.0\tools\xunit.console.exe</TargetExecutable>
+  <TargetArguments>.\bin\Debug\CTDemo.Facts.dll</TargetArguments>
+  <TargetWorkingDir>.\bin\Debug\</TargetWorkingDir>
+  <TempDir>C:\Temp</TempDir>
+  <Output>report.html</Output>
+  <ReportType>HTML</ReportType>
+  <InheritConsole>True</InheritConsole>
+  <AnalyseTargetArguments>True</AnalyseTargetArguments>
+
+  <!-- Allows including not loaded assemblies in the specified scope into coverage results. Ant-style patterns are supported here.
+  <Scope>
+    <ScopeEntry>ProjectFolder/**/*.dll</ScopeEntry>
+    <ScopeEntry>ProjectFolder/**/*.exe</ScopeEntry>
+  </Scope>
+  -->
+  <!-- Coverage filters. It's possible to use asterisks as wildcard symbols.
+  <Filters>
+    <IncludeFilters>
+      <FilterEntry>
+        <ModuleMask> Module mask </ModuleMask>
+        <ClassMask> Class mask </ClassMask>
+        <FunctionMask> Function mask </FunctionMask>
+      </FilterEntry>
+    </IncludeFilters>
+    <ExcludeFilters>
+      <FilterEntry>...</FilterEntry>
+      <FilterEntry>...</FilterEntry>
+      <FilterEntry>...</FilterEntry>
+    </ExcludeFilters>
+  </Filters>
+  -->
+  <!-- Attribute filters. It's possible to use asterisks as wildcard symbols.
+  <AttributeFilters>
+    <AttributeFilterEntry> Attribute class mask </AttributeFilterEntry>
+    <AttributeFilterEntry>System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute</AttributeFilterEntry>
+  </AttributeFilters>
+  -->
+  <!-- Process Filters. It's possible to use asterisks as wildcard symbols.
+  <ProcessFilters>
+    <IncludeFilters>
+      <ProcessMask>SampleProcess*</ProcessMask>
+    </IncludeFilters>
+    <ExcludeFilters>
+	    <ProcessMask>SampleProcess.exe</ProcessMask>
+	  </ExcludeFilters>
+  </ProcessFilters>
+  -->
+</AnalyseParams>
