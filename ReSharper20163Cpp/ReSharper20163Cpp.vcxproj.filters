@@ -38,5 +38,8 @@
     <ClCompile Include="Samples.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Cpp17NestedNamespace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
