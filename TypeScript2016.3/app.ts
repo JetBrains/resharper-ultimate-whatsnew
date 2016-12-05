@@ -1,4 +1,4 @@
-﻿// numeric literals
+﻿// 20163 TypeScript: numeric literals
 
 type Bit = 0 | 1;
 
@@ -8,7 +8,7 @@ bit = 0x1;
 bit = 0o2;
 
 
-// enum literals
+// 20163 TypeScript: enum literals
 enum Status { Success, Fail }
 
 interface ISuccessfulResult {
@@ -43,13 +43,14 @@ function processResponse(response: AnyResult) {
   failOnUnknownResponse(response);  
 }
 
-// mutual type discriminators
+// 20163 TypeScript: mutual type discriminators
 function compareResults(result1: AnyResult, result2: ISuccessfulResult) {
   if (result1 === result2) {
     alert(`Both are successful! ${result1.response} ${result2.response}`);
   }
 }
 
+// 20163 TypeScript: 'Surround with type guard' quick fix
 // here you can use a quick fix to surround with type guard so that the property is available
 function processResponseDifferently(response: ISuccessfulResult | IFailureResult) {
   alert(`My result is ${response.response}`);
@@ -59,3 +60,8 @@ function processOurResult(result: string | number) {
   var length = result.length;
 }
 
+
+// 20163 TypeScript: Encapsulate Field refactoring
+class SomeClass {
+  someField: string;
+}

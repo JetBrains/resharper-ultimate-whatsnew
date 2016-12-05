@@ -6,7 +6,7 @@ namespace ReSharper20163CSharp
   {
     private readonly int _used;
 
-    // Introduce From Unused Parameters
+    // 20163 Introduce From Unused Parameters quick-fix
     //
     // Quick Fix - hit Alt+Enter on any unused parameter to introduce a single field or property
     // Expand menu to introduce from all unused parameters

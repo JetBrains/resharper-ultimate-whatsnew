@@ -1,4 +1,4 @@
-﻿// Literal type completion
+﻿// 20163 TypeScript: Literal type completion
 //
 // Given a type defined as a literal, provide each literal value as a completion item
 

@@ -41,7 +41,7 @@ namespace ReSharper20163CSharp
     // store only css parameter value. To treat it like css, simply add prefix and postfix
     // cursor after css (in comment) => type prefix=.myClass{color: postfix=}
     //language=css
-    private string toolBarColor = "green";
+    private string toolBarColor = "gree";
   }
 
   // 20163 C# SSR improvements: string and integer numeric literals now match by value 
@@ -53,4 +53,18 @@ namespace ReSharper20163CSharp
     public int Second => 42 * Third;
     public int Third => 0x2A * First;
   }
+
+
+  // 20163 Indenting of nested for, foreach, while, lock statements without braces is now disabled by default
+  // with options to restore the old behavior
+  class FormattingNestedStatements
+  {
+    public FormattingNestedStatements(int[] array1, int[] array2)
+    {
+      for (int i = 0; i < array1.Length; i++)
+      for (int j = 0; j < array2.Length; j++)
+          Console.WriteLine($"i={i}; j={j}");
+    }
+  }
+
 }
