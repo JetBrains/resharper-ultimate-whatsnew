@@ -1,0 +1,13 @@
+﻿root = true
+[*]
+# Most of the standard EditorConfig properties are supported
+indent_size=2 
+max_line_length=100
+
+# Most of Roslyn EditorConfig properties for Visual Studio 2017 are supported
+csharp_space_between_parentheses=expressions, type_casts, control_flow_statements
+csharp_new_line_within_query_expression_clauses=true
+
+# Greater flexibility in configuring code formatting styles with custom EditorConfig properties
+resharper_csharp_brace_style=next_line
+resharper_csharp_blank_lines_around_invocable=2
