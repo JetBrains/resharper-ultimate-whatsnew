@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper101CSharp", "ReSharper101CSharp\ReSharper101CSharp.csproj", "{12A1F12D-9879-4301-BD7D-766399745BA7}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScript2017.1", "TypeScriptHTMLApp1\TypeScript2017.1.csproj", "{11006D1B-D6D1-4BC5-8C20-0D37DB214262}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReSharper20171Cpp", "ReSharper20171Cpp\ReSharper20171Cpp.vcxproj", "{5217DEEC-8F0B-4C9D-90AB-977DB668FC04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper20171EditorConfig", "ReSharper20171EditorConfig\ReSharper20171EditorConfig.csproj", "{FE54A8EF-760D-4406-99E3-C5ED664A85DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -395,6 +397,26 @@ Global
 		{5217DEEC-8F0B-4C9D-90AB-977DB668FC04}.Release|x64.Build.0 = Release|x64
 		{5217DEEC-8F0B-4C9D-90AB-977DB668FC04}.Release|x86.ActiveCfg = Release|Win32
 		{5217DEEC-8F0B-4C9D-90AB-977DB668FC04}.Release|x86.Build.0 = Release|Win32
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Debug|ARM.Build.0 = Debug|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Debug|x64.Build.0 = Debug|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Debug|x86.Build.0 = Debug|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Release|ARM.Build.0 = Release|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Release|x64.ActiveCfg = Release|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Release|x64.Build.0 = Release|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Release|x86.ActiveCfg = Release|Any CPU
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -418,5 +440,6 @@ Global
 		{AEABB0B1-A523-4E53-8302-2389CA4B1B36} = {B94D1A3F-35FF-4365-AE9F-144B5294440C}
 		{11006D1B-D6D1-4BC5-8C20-0D37DB214262} = {B94D1A3F-35FF-4365-AE9F-144B5294440C}
 		{5217DEEC-8F0B-4C9D-90AB-977DB668FC04} = {B94D1A3F-35FF-4365-AE9F-144B5294440C}
+		{FE54A8EF-760D-4406-99E3-C5ED664A85DF} = {B94D1A3F-35FF-4365-AE9F-144B5294440C}
 	EndGlobalSection
 EndGlobal
