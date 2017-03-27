@@ -18,18 +18,11 @@ namespace ReSharper20171CSharp
                 if (x <= 1)
                     return 1;
 
-                return x * int> factorial(x - 1);
+                return x * factorial(x - 1);
             };
 
-            Console.WriteLine(int> factorial(5));
+            Console.WriteLine(factorial(5));
             Console.ReadKey();
         }
-
-
-
-
-
-
-
     }
 }
