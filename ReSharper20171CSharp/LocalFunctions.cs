@@ -1,15 +1,9 @@
 ﻿using System;
 
-
 namespace ReSharper20171CSharp
 {
     class LocalFunctions
     {
-        //AltEnter on factorial -> To local function
-        
-        //Then you can convert a local variable to the regular method using a corresponding context action
-
-
         static void Main(string[] args)
         {
             Func<int, int> factorial = null;
