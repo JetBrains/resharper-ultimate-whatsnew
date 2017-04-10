@@ -1,0 +1,17 @@
+{
+  "name": "rs2017web",
+  "version": "1.0.0",
+  "description": "Demo project for ReSharper 2017.1 web tooling features",
+  "main": "index.js",
+  "dependencies": {
+    "@angular/core": "^4.0.1",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

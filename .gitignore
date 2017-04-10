@@ -28,6 +28,9 @@ bower_components
 .bower-registry
 .bower-tmp
 
+# NPM
+node_modules
+
 # Visual Studio 2015 cache/options directory
 .vs/
 
@@ -66,3 +69,5 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
+
+UpgradeLog.htm
