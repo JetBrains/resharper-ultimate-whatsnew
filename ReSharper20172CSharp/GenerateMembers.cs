@@ -10,7 +10,7 @@ namespace ReSharper20172CSharp
     {
         // Generate members can make read-only interface members mutable.
         // Alt+Insert to generate members, "Generate missing members",
-        // tick "Make properties mutable".
+        // tick "Make properties mutable"
         
     }
 }
