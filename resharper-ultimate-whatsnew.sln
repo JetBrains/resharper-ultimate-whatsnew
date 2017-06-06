@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.10
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper101CSharp", "ReSharper101CSharp\ReSharper101CSharp.csproj", "{12A1F12D-9879-4301-BD7D-766399745BA7}"
 EndProject
@@ -52,6 +52,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper20171EditorConfig", "ReSharper20171EditorConfig\ReSharper20171EditorConfig.csproj", "{FE54A8EF-760D-4406-99E3-C5ED664A85DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper20171Web", "ReSharper20171Web\ReSharper20171Web.csproj", "{67938277-6B25-40E0-977D-7C34B9031923}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReSharper20163DotNetCoreTesting", "ReSharper2063DotNetCoreTesting\ReSharper20163DotNetCoreTesting.csproj", "{05183826-A792-4C69-82F3-30B10F60977E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +419,26 @@ Global
 		{67938277-6B25-40E0-977D-7C34B9031923}.Release|x64.Build.0 = Release|Any CPU
 		{67938277-6B25-40E0-977D-7C34B9031923}.Release|x86.ActiveCfg = Release|Any CPU
 		{67938277-6B25-40E0-977D-7C34B9031923}.Release|x86.Build.0 = Release|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Debug|x64.Build.0 = Debug|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Debug|x86.Build.0 = Debug|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Release|ARM.Build.0 = Release|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Release|x64.ActiveCfg = Release|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Release|x64.Build.0 = Release|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Release|x86.ActiveCfg = Release|Any CPU
+		{05183826-A792-4C69-82F3-30B10F60977E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -441,5 +463,6 @@ Global
 		{5217DEEC-8F0B-4C9D-90AB-977DB668FC04} = {B94D1A3F-35FF-4365-AE9F-144B5294440C}
 		{FE54A8EF-760D-4406-99E3-C5ED664A85DF} = {B94D1A3F-35FF-4365-AE9F-144B5294440C}
 		{67938277-6B25-40E0-977D-7C34B9031923} = {B94D1A3F-35FF-4365-AE9F-144B5294440C}
+		{05183826-A792-4C69-82F3-30B10F60977E} = {7AB1DD12-79DF-4085-AD6F-D0039B58888D}
 	EndGlobalSection
 EndGlobal
