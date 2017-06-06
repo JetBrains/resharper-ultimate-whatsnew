@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Csharp71.cs" />
+    <Compile Include="GenerateMembers.cs" />
+    <Compile Include="Customer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypingAssist.cs" />
   </ItemGroup>
