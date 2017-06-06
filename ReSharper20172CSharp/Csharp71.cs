@@ -14,6 +14,8 @@ namespace ReSharper20172CSharp
 
             var someString = Create<string>();
             var someInt = Create<int>();
+
+            await Task.Delay(1000);
         }
 
         private static T Create<T>()
