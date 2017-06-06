@@ -27,7 +27,7 @@ As many ReSharper features are used to fix broken code and sample code in this s
 As code in this solution specifically serves to demonstrate ReSharper Ultimate functionality, it does not have to make any practical sense and usually fails to do so.
 
 ## Requirements
-* Visual Studio 2015
+* Visual Studio 2015 or higher
 * Version of ReSharper Ultimate
 * Project-specific requirements:
     * ReSharper101NodeJsExpress:
