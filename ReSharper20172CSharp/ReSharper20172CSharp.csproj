@@ -51,10 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Csharp.cs" />
     <Compile Include="Csharp71.cs" />
+    <Compile Include="GenerateConstructor.cs" />
     <Compile Include="GenerateMembers.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="InspectionUseVar.cs" />
     <Compile Include="LanguageInjections.cs" />
     <Compile Include="Navigation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
