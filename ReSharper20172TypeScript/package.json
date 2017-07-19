@@ -4,7 +4,7 @@
   "description": "Sample application",
   "main": "index.js",
   "dependencies": {
-    "@angular/core": "*"
+    "angular2": "2.0.0-beta.21"
   },
   "devDependencies": {},
   "scripts": {
