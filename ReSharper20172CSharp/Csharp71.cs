@@ -45,7 +45,7 @@ namespace ReSharper20172CSharp
                 .Select(p => (p.Name, p.Age))
                 .FirstOrDefault(tuple => tuple.Age > 21);
 
-            // New inspection: redundant value tuple component name 
+            // New inspection: Redundant value tuple component name 
             (var name1, var age1) = list
                 .Select(p => (Name: p.Name, Age: p.Age)) // should be visible here
                 .FirstOrDefault(tuple => tuple.Age > 21);
