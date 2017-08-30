@@ -55,6 +55,9 @@
     <Compile Include="GenerateConstructor.cs" />
     <Compile Include="GenerateMembers.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="InspectionInheritDoc.cs" />
+    <Compile Include="InspectionPossibleMultipleEnumeration.cs" />
+    <Compile Include="InspectionPossiblyUnintendedTransformationOfIQueryable.cs" />
     <Compile Include="InspectionUseVar.cs" />
     <Compile Include="LanguageInjections.cs" />
     <Compile Include="Navigation.cs" />
