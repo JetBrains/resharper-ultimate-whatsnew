@@ -61,6 +61,7 @@
     <Compile Include="InspectionUseVar.cs" />
     <Compile Include="LanguageInjections.cs" />
     <Compile Include="Navigation.cs" />
+    <Compile Include="PatternMatching.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypingAssist.cs" />
   </ItemGroup>
