@@ -21,7 +21,7 @@ namespace ReSharper20171CSharp
             var (forename, surname) = p;
             var (name1, name2) = p;
         }
-
+        
         private static (string forename, string surname) GetName()
         {
             return ("Jason", "Isaacs");
@@ -44,6 +44,17 @@ namespace ReSharper20171CSharp
                 forename = myForename;
                 surname = mySurname;
             }
+        }
+
+        abstract class Base
+        {
+            public abstract (string name, string surname) GetPerson();
+        }
+
+        class Derived : Base
+        {
+            // "surnmae" typo detection
+            public override (string name, string surnmae) GetPerson() => ("Jane", "Doe");
         }
     }
 }
