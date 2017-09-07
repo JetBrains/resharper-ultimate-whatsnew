@@ -58,7 +58,7 @@
     <Compile Include="InspectionInheritDoc.cs" />
     <Compile Include="InspectionPossibleMultipleEnumeration.cs" />
     <Compile Include="InspectionPossiblyUnintendedTransformationOfIQueryable.cs" />
-    <Compile Include="InspectionInlineUseVar.cs" />
+    <Compile Include="InspectionUseVar.cs" />
     <Compile Include="LanguageInjections.cs" />
     <Compile Include="Navigation.cs" />
     <Compile Include="PatternMatching.cs" />
