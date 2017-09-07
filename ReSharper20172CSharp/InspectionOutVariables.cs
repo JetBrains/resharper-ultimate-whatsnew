@@ -21,6 +21,7 @@ namespace ReSharper20172CSharp
 
             public void InlineVar2(Dictionary<int, string> items)
             {
+                // Use context action to inline variable
                 string result;
                 items.TryGetValue(42, out result);
             }
