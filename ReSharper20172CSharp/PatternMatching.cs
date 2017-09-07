@@ -37,6 +37,8 @@ namespace ReSharper20172CSharp
         public void ConvertToSwitch(IShape shape)
         {
             // Alt+Enter on if, convert to switch statement
+            if (shape == null) return;
+
             if (shape is Circle circle)
             {
                 // do circular stuff
