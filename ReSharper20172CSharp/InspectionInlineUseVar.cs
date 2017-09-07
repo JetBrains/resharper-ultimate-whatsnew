@@ -2,7 +2,7 @@
 
 namespace ReSharper20172CSharp
 {
-    public class InspectionUseVar
+    public class InspectionInlineUseVar
     {
         public void OutVarToType()
         {
