@@ -42,10 +42,12 @@ namespace ReSharper20172CSharp
             if (shape is Circle circle)
             {
                 // do circular stuff
+                Console.WriteLine(circle.Radius);
             }
             else if (shape is Rectangle rectangle)
             {
                 // do rectangular stuff
+                Console.WriteLine(rectangle.Length);
             }
         }
         
