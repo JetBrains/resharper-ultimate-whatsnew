@@ -7,7 +7,7 @@ namespace ReSharper20172CSharp
         public string Name { get; set; }
         public string Description { get; set; }
         
-        // Generate constructor can now make parameters optional.
+        // 20172 Generate constructor can now make parameters optional.
         // Alt+Insert to generate members, "Generate constructor",
         // tick "Make parameters optional"
         
