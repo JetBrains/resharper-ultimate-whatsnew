@@ -6,12 +6,11 @@ namespace ReSharper20172CSharp
     {
         public IShape GenerateShape(string typeOfShape)
         {
-            switch (typeOfShape)
+            if (typeOfShape == "circle")
+                return new Circle();
+            else if (typeOfShape == "rectangle")
             {
-                case "circle":
-                    return new Circle();
-                case "rectangle":
-                    return new Rectangle();
+                return new Rectangle();
             }
 
             return null;
