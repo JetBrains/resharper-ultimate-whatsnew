@@ -11,7 +11,6 @@ namespace ReSharper20171CSharp
             if (values.TryGetValue("key", out var value))
             {
                 Console.WriteLine(value);
-                Console.WriteLine(value);
             }
         }
     }
