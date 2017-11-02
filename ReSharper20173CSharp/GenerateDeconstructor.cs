@@ -1,4 +1,4 @@
-﻿namespace ReSharper20173CSharp.GenerateDeconstructor
+﻿namespace ReSharper20173CSharp.Deconstructors
 {
     public class Person
     {
