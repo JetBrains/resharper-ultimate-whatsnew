@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FindUsagesDeconstructor.cs" />
+    <Compile Include="Formatter\BlogException.cs" />
     <Compile Include="GenerateDeconstructor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
