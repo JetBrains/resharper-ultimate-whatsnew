@@ -46,6 +46,7 @@
     <Compile Include="FindUsagesDeconstructor.cs" />
     <Compile Include="Formatter\AlignColumns.cs" />
     <Compile Include="Formatter\BlogException.cs" />
+    <Compile Include="Formatter\WrapChopLongLines.cs" />
     <Compile Include="GenerateDeconstructor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
