@@ -10,7 +10,7 @@ namespace ReSharper20173CSharp.Refactoring.ExtractMethod
             (int index, bool found) = FindWord(word);
             if (!found)
                 Console.WriteLine($"Unable to found word '{word}'");
-            // To here. Ctrl+R, M (Extract mehod), choose method, multiple return values (tuple)
+            // To here. Ctrl+R, M (Extract method), choose method, multiple return values (tuple)
             if (found)
                 Console.WriteLine(index);
         }
