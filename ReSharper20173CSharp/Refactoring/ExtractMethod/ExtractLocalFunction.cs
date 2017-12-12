@@ -4,17 +4,15 @@ namespace ReSharper20173CSharp.Refactoring.ExtractMethod
 {
     class ExtractLocalFunction
     {
-        public void Code()
+        public Uri CreateUrl(string url = "https://www.jetbrains.com/")
         {
-            var url = "https://www.jetbrains.com/";
-
-            // Extract the following piece of code into a local function
+            // Select this statement and extract a locatl function (Ctrl+R, M)
             if (!url.EndsWith("/"))
             {
                 url = url + "/";
             }
 
-            Console.WriteLine(url);
+            return new Uri(url);
         }
     }
 }
