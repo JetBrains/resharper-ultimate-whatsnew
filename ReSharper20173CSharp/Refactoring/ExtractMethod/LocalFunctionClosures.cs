@@ -21,18 +21,4 @@ namespace ReSharper20173CSharp.Refactoring.ExtractMethod
 
         private static (int, bool) FindWord(string word) => (12, true);
     }
-
-    class ExtractLocalFunction
-    {
-        public Uri CreateUrl(string url = "https://www.jetbrains.com/")
-        {
-            // Select this statement and extract a local function (Ctrl+R, M)
-            if (!url.EndsWith("/"))
-            {
-                url = url + "/";
-            }
-
-            return new Uri(url);
-        }
-    }
 }
