@@ -14,6 +14,7 @@ namespace ReSharper20173CSharp.Refactoring.ExtractMethod
             if (found)
                 Console.WriteLine(index);
         }
+
         private static (int, bool) FindWord(string word) => (12, true);
     }
 }
