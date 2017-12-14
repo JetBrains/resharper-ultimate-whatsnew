@@ -49,9 +49,10 @@
     <Compile Include="Formatter\WrapChopLongLines.cs" />
     <Compile Include="GenerateDeconstructor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Refactoring\ExtractMethod\ConflictResolution.cs" />
     <Compile Include="Refactoring\ExtractMethod\ExtractLocalFunction.cs" />
+    <Compile Include="Refactoring\ExtractMethod\ExtractMethod.cs" />
     <Compile Include="Refactoring\ExtractMethod\LocalFunctionClosures.cs" />
-    <Compile Include="Refactoring\ExtractMethod\Stuff.cs" />
     <Compile Include="Refactoring\ExtractMethod\SyncParameterCheck.cs" />
     <Compile Include="Refactoring\ExtractMethod\TupleReturn.cs" />
   </ItemGroup>
