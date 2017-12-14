@@ -51,6 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Refactoring\ExtractMethod\ExtractLocalFunction.cs" />
     <Compile Include="Refactoring\ExtractMethod\LocalFunctionClosures.cs" />
+    <Compile Include="Refactoring\ExtractMethod\Stuff.cs" />
     <Compile Include="Refactoring\ExtractMethod\SyncParameterCheck.cs" />
     <Compile Include="Refactoring\ExtractMethod\TupleReturn.cs" />
   </ItemGroup>
