@@ -9,6 +9,16 @@
 	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=JS_005FCLASS/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/JavaScriptNaming/UserRules/=TS_005FPRIVATE_005FTYPE_005FFIELD/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="_" Suffix="" Style="aaBb" /&gt;</s:String>
 	<s:String x:Key="/Default/Environment/GutterMargin/ContextActionsIndication/@EntryValue">BulbIndicator</s:String>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=6015D881DB4DF6459D8A65CA152FD275/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=6015D881DB4DF6459D8A65CA152FD275/AbsolutePath/@EntryValue">C:\code\resharper-samples\Inspections.DotSettings</s:String>
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=6015D881DB4DF6459D8A65CA152FD275/RelativePath/@EntryValue">..\Inspections.DotSettings</s:String>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=A8EE24811EF23740BA3E4DB67B73DBA3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=A8EE24811EF23740BA3E4DB67B73DBA3/AbsolutePath/@EntryValue">C:\code\resharper-samples\CodeStyle.DotSettings</s:String>
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=A8EE24811EF23740BA3E4DB67B73DBA3/RelativePath/@EntryValue">..\CodeStyle.DotSettings</s:String>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=File6015D881DB4DF6459D8A65CA152FD275/@KeyIndexDefined">True</s:Boolean>
+	<s:Double x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=File6015D881DB4DF6459D8A65CA152FD275/RelativePriority/@EntryValue">2</s:Double>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=FileA8EE24811EF23740BA3E4DB67B73DBA3/@KeyIndexDefined">True</s:Boolean>
+	<s:Double x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=FileA8EE24811EF23740BA3E4DB67B73DBA3/RelativePriority/@EntryValue">1</s:Double>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=03570164691607439C39F73194BE1D4B/@KeyIndexDefined">False</s:Boolean>
 	
 	
