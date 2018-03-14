@@ -12,7 +12,8 @@ namespace ReSharper20181CSharp.ValueTracking
             SaveToDatabase(new Person("Chris", "Woodruff"), log: false);
         }
 
-        public static void SaveToDatabase(Person p, bool log = false)
+        // TODO: find default value for 'log' parameter
+        public static void SaveToDatabase(Person p, bool log)
         {
             if (log)
                 Console.WriteLine($"Saving {p.Fullname} to database.");
@@ -22,14 +23,14 @@ namespace ReSharper20181CSharp.ValueTracking
         
         public class Person
         {
-            public string Forename { get; }
-            public string Surname { get; }
-            public string Fullname => $"{Forename} {Surname}";
+            public string FirstName { get; }
+            public string LastName { get; }
+            public string Fullname => $"{FirstName} {LastName}";
 
-            public Person(string forename, string surname)
+            public Person(string firstName, string lastName)
             {
-                Forename = forename;
-                Surname = surname;
+                FirstName = firstName;
+                LastName = lastName;
             }
         }
     }
