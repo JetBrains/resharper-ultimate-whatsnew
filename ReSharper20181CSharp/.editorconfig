@@ -1,0 +1,23 @@
+root = true
+
+[*]
+indent_style = space
+insert_final_newline = true
+csharp_style_var_for_built_in_types = false
+csharp_style_var_elsewhere = false
+
+resharper_incorrect_blank_lines_near_braces_highlighting = error
+resharper_arrange_this_qualifier_highlighting = error
+csharp_style_var_for_built_in_types = false : warning
+
+[*.cs]
+indent_size = 4
+
+[*.{js,ts}]
+indent_size = 4
+
+[*.{xml,csproj,targets,props,nuspec,resx}]
+indent_size = 2
+
+[*.json]
+indent_size = 2
