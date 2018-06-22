@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-
-namespace ReSharper20182CSharp
+﻿namespace ReSharper20182CSharp
 {
     public class RefLocalAssignments
     {
