@@ -42,7 +42,7 @@ namespace ReSharper20181CSharp
 
         private string Z(string bla)
         {
-            Z(Z("Oijsodjf"));
+            return Z(Z("Oijsodjf"));
         }
 
         private void O(out string i)
