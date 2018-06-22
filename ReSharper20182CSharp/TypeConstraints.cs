@@ -17,6 +17,14 @@ namespace ReSharper20182CSharp
             }
         }
 
+        int DoSomething<T>(T value) where T : unmanaged
+        {
+            // ...
+
+            return 0;
+        }
+
+        // .NET 2.0 example
         public class Repository<T>
             where T : IEntity, new()
         {
