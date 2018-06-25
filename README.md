@@ -1,18 +1,18 @@
 [![team project](http://jb.gg/badges/team-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
-# What this solution is for
+# What this repository is for
 
-This solution serves to showcase improvements introduced in new releases of ReSharper Ultimate products in a compact and code-centric way.
+This repository serves to showcase improvements introduced in new releases of ReSharper Ultimate products in a compact and code-centric way.
 
 To JetBrains employees, it allows reusing sample code across all kinds of communications related to a particular ReSharper Ultimate release, such as blog posts, web help, social media updates, videos and live demos.
 
 To users of ReSharper Ultimate products, it helps get an overview of changes in a particular release by reading code and playing with it.
 
-## How this solution is organized
+## How this repository is organized
 
-There's a solution folder (i.e. "10.1") for each new ReSharper Ultimate release.
+There's a solution (i.e. "ReSharper20181.sln") for each new ReSharper Ultimate release.
 
-Every solution folder hosts multiple projects of different types. A specific set of projects depends on the nature and scope of changes in a particular release. If a release brings changes in terms of WCF and Node.js support, you can expect it to contain a WCF service project and a Node.js application project.
+Every solution hosts one or more projects of different types. A specific set of projects depends on the nature and scope of changes in a particular release. If a release brings changes in terms of WCF and Node.js support, you can expect it to contain a WCF service project and a Node.js application project.
 
 The projects contain code files with code samples that demonstrate how a particular new feature or improvement is expected to work. Of course, there are also files with of boilerplate and configuration code.
 
@@ -24,7 +24,7 @@ The custom to-do patterns representing particular releases are saved in a .dotse
 
 ## Disclaimer
 
-As many ReSharper features are used to fix broken code and sample code in this solution serves to demonstrate how it does so, no project contained here is expected to be compilable.
+As many ReSharper features are used to fix broken code and sample code contained in this solution serves to demonstrate how it does so, no project contained here is expected to be compilable.
 
 As code in this solution specifically serves to demonstrate ReSharper Ultimate functionality, it does not have to make any practical sense and usually fails to do so.
 
