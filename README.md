@@ -10,7 +10,7 @@ To users of ReSharper Ultimate products, it helps get an overview of changes in 
 
 ## How this repository is organized
 
-There's a solution (i.e. "ReSharper20181.sln") for each new ReSharper Ultimate release.
+There's a solution (i.e. "ReSharper2016.sln", "ReSharper2017.sln", "ReSharper2018.sln") for each new ReSharper Ultimate release year.
 
 Every solution hosts one or more projects of different types. A specific set of projects depends on the nature and scope of changes in a particular release. If a release brings changes in terms of WCF and Node.js support, you can expect it to contain a WCF service project and a Node.js application project.
 
