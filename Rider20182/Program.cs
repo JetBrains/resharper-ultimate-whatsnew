@@ -6,7 +6,8 @@ namespace Rider20182
     {
         static void Main(string[] args)
         {
-            DebuggerStackFrames.Run(args);
+            DebuggerStackFrames1.Run(args);
+            DebuggerStackFrames2.Run(args);
         }
     }
 }

@@ -2,23 +2,23 @@
 
 namespace Rider20182
 {
-    internal class DebuggerStackFrames
+    internal class DebuggerStackFrames1
     {
         // Improved presentation of stack frames (.ctor -> new T, .cctor -> static T, generic types with actual substitution) RIDER-11187 
 
-        static DebuggerStackFrames()
+        static DebuggerStackFrames1()
         {
-            new DebuggerStackFrames();
+            new DebuggerStackFrames1();
         }
 
-        public DebuggerStackFrames()
+        public DebuggerStackFrames1()
         {
             Run(null);
         }
 
         public static void Run(string[] args)
         {
-            new MyClass<int, int>().DoSomething();
+            new MyClass1<int, int>().DoSomething();
         }
 
         public static void SomeMethod<TValue1, TValue2, TValue3>()
@@ -32,11 +32,11 @@ namespace Rider20182
             Console.WriteLine();
         }
     }
-    internal class MyClass<TKey, TValue>
+    internal class MyClass1<TKey, TValue>
     {
         public void DoSomething()
         {
-            DebuggerStackFrames.SomeMethod<int, int, int>();
+            DebuggerStackFrames1.SomeMethod<int, int, int>();
         }
     }
 }
