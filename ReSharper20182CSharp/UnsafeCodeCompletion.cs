@@ -16,10 +16,8 @@
         {
             unsafe void Demo()
             {
-                // TODO: NOT YET IN NIGHTLIES/EAP
-                // https://twitter.com/kskrygan/status/1008734433451659264
                 var point = new Point();
-                var pointPointer = &point;
+                var pointPointer = &point;                
                 //pointPointer.HasCoordinates();
                 //pointPointer->HasCoordinates();
             }
