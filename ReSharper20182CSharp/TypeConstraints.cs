@@ -6,6 +6,7 @@ namespace ReSharper20182CSharp
 {
     public class TypeConstraints
     {
+        // Enum constraint
         public static IEnumerable<string> GetValues<T>()
             where T : struct, System.Enum
         {
@@ -18,6 +19,7 @@ namespace ReSharper20182CSharp
             }
         }
 
+        // Delegate constraint
         private void CombineDelegates()
         {
             void Hello() => Console.WriteLine("Hello");
@@ -37,11 +39,24 @@ namespace ReSharper20182CSharp
             return (TDelegate)Delegate.Combine(source, target);
         }
 
-        int DoSomething<T>(T value) where T : unmanaged
+        // Unmanaged constraint - all unsafe constructs at your disposal
+        private static unsafe void DoSomething<T>(T value) 
+            where T : unmanaged
         {
-            // ...
+            // get size
+            int size = sizeof(T);
 
-            return 0;
+            // get address and store it to pointer variable
+            T* a = &value;
+
+            // allocate array on stack
+            T* arr = stackalloc T[42];
+
+            // allocate array on heap and pin it
+            fixed (T* p = new T[42])
+            {
+                // ...
+            }
         }
 
         // .NET 2.0 example
