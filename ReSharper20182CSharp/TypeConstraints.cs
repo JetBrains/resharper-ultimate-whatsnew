@@ -59,6 +59,12 @@ namespace ReSharper20182CSharp
             }
         }
 
+        // Unmanaged constraint - Alt+Enter on "T*"
+        static unsafe void SomeMethod<T>(T* p)
+        {
+            // ...
+        }
+
         // .NET 2.0 example
         public class Repository<T>
             where T : IEntity, new()
