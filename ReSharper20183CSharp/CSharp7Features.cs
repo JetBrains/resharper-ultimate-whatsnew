@@ -6,7 +6,7 @@ namespace ReSharper20183CSharp
 {
     public class CSharp7Features
     {
-        void IntroduceParameterInLocalFunction(string url)
+        private void IntroduceParameterInLocalFunction(string url)
         {
             // 1. Introduce parameter refactoring for local functions
             //    Alt+Enter on "/", introduce parameter
