@@ -40,9 +40,9 @@ namespace ReSharper20183CSharp
         public void DeconstructUsage(Dictionary<int, Person> people)
         {
             // 3. Deconstruct variable into.. on usage
-            //    Alt+Enter on pair, deconstruct into
             foreach (var pair in people)
             {
+                // Alt+Enter on pair, deconstruct into
                 Console.WriteLine($"Person: {pair.Key} {pair.Value.FirstName}");
             }
 
