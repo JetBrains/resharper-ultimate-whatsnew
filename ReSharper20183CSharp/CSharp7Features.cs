@@ -1,19 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace ReSharper20183CSharp
 {
     public class CSharp7Features
     {
-        private void IntroduceParameterInLocalFunction(string url)
+        public static string GetText(string path, string filename)
         {
-            // 1. Introduce parameter refactoring for local functions
-            //    Alt+Enter on "/", introduce parameter
-            url = EnsureTrimmed(url, "/");
+            using (var streamReader = File.OpenText(AppendPathSeparator(path) + filename))
+            {
+                var text = streamReader.ReadToEnd();
+                return text;
 
-            string EnsureTrimmed(string data)
-                => data.Trim();
+            }
+            string AppendPathSeparator(string filePath)
+            {
+                // 1. Introduce parameter
+                // Refactor this Ctrl+Shift+R on @"\"
+                if (!filePath.EndsWith(value: @"\"))
+                    filePath += @"\";
+                return filePath;
+            }
         }
 
         (string id, bool include) AddExplicitTupleComponentName()
