@@ -18,9 +18,10 @@ namespace ReSharper20183CSharp
             string AppendPathSeparator(string filePath)
             {
                 // 1. Introduce parameter
-                // Refactor this Ctrl+Shift+R on @"\"
+                // Select @"\", then invoke Refactor this Ctrl+Shift+R
                 if (!filePath.EndsWith(value: @"\"))
                     filePath += @"\";
+
                 return filePath;
             }
         }
