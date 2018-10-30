@@ -1,4 +1,5 @@
 Public Class InferredTupleElementNames
+    'https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/data-types/tuples#inferred-tuple-element-names
     Public Sub Example()
         Dim firstName = "Maarten"
         Dim lastName = "Balliauw"
