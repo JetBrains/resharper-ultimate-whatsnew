@@ -12,7 +12,10 @@ namespace ReSharper20183CSharp
     {
         public IEnumerable<string> SplitWords(string sentence)
         {
-            if (string.IsNullOrEmpty(sentence)) return Enumerable.Empty<string>();
+            if (string.IsNullOrEmpty(sentence))
+            {
+                return Enumerable.Empty<string>();
+            }
 
             return Regex.Split(sentence, "\\s");
         }
