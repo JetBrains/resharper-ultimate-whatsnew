@@ -54,7 +54,7 @@ namespace ReSharper20183CSharp
             /// Find person by <see cref="firstName"/> and/or <see cref="lastName"/>.
             /// </summary>
             /// <param name="firstName">First name to search for. Can be null.</param>
-            /// <param name="lastName">Last name to search for. Can be >null.</param>
+            /// <param name="lastName">Last name to search for. Can be null.</param>
             /// <param name="caseSensitive">True to search case sensitive; False otherwise.</param>
             /// <returns></returns>
             public IEnumerable<Person> Find(string firstName, string lastName, bool caseSensitive)
