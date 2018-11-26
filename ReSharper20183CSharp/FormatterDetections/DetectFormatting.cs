@@ -2,6 +2,7 @@
 
 namespace ReSharper20183CSharp.FormatterDetections {
     // ReSharper | Edit | Detect formatting settings
+    // Or select all code in this file, Alt+Enter, Format Selection | Detect formatting settings...
     public class DetectFormatting {
         public void MyMethod() {
             // ...
