@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace ReSharper20183CSharp.FormatterDetections
-{
+namespace ReSharper20183CSharp.FormatterDetections {
     // ReSharper | Edit | Detect formatting settings
     public class DetectFormatting {
         public void MyMethod() {
