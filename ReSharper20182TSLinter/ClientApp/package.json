@@ -31,7 +31,8 @@
     "hoek": "^4.2.1",
     "lodash": ">=4.17.11",
     "rxjs": "^5.5.6",
-    "url-parse": "^1.4.3",
+    "protractor": "^5.4.0",
+    "tar": "^4.4.2",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
