@@ -8,4 +8,12 @@
     <PackageReference Include="JetBrains.Annotations" Version="2021.1.0" />
   </ItemGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Generators\Generators.csproj" OutputItemType="Analyzer" />
+  </ItemGroup>
+
 </Project>
