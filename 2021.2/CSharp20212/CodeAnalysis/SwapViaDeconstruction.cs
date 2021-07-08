@@ -19,12 +19,5 @@ namespace CSharp20212.CodeAnalysis
                 array[j] = temp;
             }
         }
-
-        // -- Replace empty array creation
-        // Caret on new string[0], Alt+Enter, Use Array.Empty
-        public static string[] Defaults = new string[0];
-
-        // Caret on new Type[0], Alt+Enter, Use Type.EmptyTypes
-        public static Type[] DefaultTypes = new Type[0];
     }
 }
