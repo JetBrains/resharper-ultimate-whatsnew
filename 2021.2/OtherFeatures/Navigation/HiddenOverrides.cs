@@ -1,5 +1,5 @@
 ﻿// ReSharper disable All
-namespace CSharp20212.Navigation {
+namespace OtherFeatures.Navigation {
     public class Base
     {
         //Call "ReSharper | Navigate | Navigate To | Derived Symbols" on Foo

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp20212", "CSharp20212\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generators", "Generators\Generators.csproj", "{BE4A1636-BBAC-4B89-893C-98B1CB6F3582}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtherFeatures", "OtherFeatures\OtherFeatures.csproj", "{4806EF59-60CB-4B4D-BA27-E3AB54E7B5ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE4A1636-BBAC-4B89-893C-98B1CB6F3582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE4A1636-BBAC-4B89-893C-98B1CB6F3582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE4A1636-BBAC-4B89-893C-98B1CB6F3582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4806EF59-60CB-4B4D-BA27-E3AB54E7B5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4806EF59-60CB-4B4D-BA27-E3AB54E7B5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4806EF59-60CB-4B4D-BA27-E3AB54E7B5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4806EF59-60CB-4B4D-BA27-E3AB54E7B5ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
