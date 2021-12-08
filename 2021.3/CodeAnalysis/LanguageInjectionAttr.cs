@@ -4,7 +4,8 @@ namespace CSCodeAnalysis;
 
 public class LanguageInjectionAttr
 {
-    void LanguageInjectionMethod([LanguageInjection(InjectedLanguage.HTML)] out string languageInjectionHTML,
+    void LanguageInjectionMethod(
+        [LanguageInjection(InjectedLanguage.HTML)] out string languageInjectionHTML,
         [LanguageInjection(InjectedLanguage.CSS, Prefix = ".x {", Suffix = ";}")] out string languageInjectionCSS)
     {
         //Start typing valid HTML syntax in quotes, get the code completion, highlighting, code analysis
