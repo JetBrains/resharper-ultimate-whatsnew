@@ -2,6 +2,8 @@
 // ReSharper disable UnusedType.Global
 // ReSharper disable UnusedVariable
 
+using JetBrains.Annotations;
+
 namespace CSCodeAnalysis;
 
 class Arithmetics
@@ -44,6 +46,19 @@ class Arithmetics
             case ConsoleColor.Green:
                 Console.WriteLine("Color is green!");
                 break;
+        }
+    }
+
+    public void NewAttributes([NonNegativeValue]int amount, [ValueRange(1, 5)]int rating)
+    {
+        if (amount < 0)
+        {
+            // ...
+        }
+
+        if (rating > 10)
+        {
+            // ...
         }
     }
 }
