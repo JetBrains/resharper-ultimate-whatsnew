@@ -1,4 +1,4 @@
-[![team project](http://jb.gg/badges/team-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![team project](http://jb.gg/badges/team-flat-square.svg)](https://github.com/JetBrains)
 
 # What this repository is for
 
